@@ -1,0 +1,94 @@
+{
+  "InlineCommentTest": {
+    "size": 32,
+    "align": 8,
+    "members": [
+      {
+        "name": "value",
+        "offset": 0,
+        "type": "_143",
+        "size": 0,
+        "align": 0,
+        "doc": "This comment should attach to value."
+      },
+      {
+        "name": "price",
+        "offset": 8,
+        "type": "_144",
+        "size": 0,
+        "align": 0,
+        "doc": "This comment should attach to price."
+      },
+      {
+        "name": "flag",
+        "offset": 16,
+        "type": "_145",
+        "size": 0,
+        "align": 0,
+        "doc": "Multi-line comment for flag."
+      },
+      {
+        "name": "type",
+        "offset": 17,
+        "type": "_142",
+        "size": 0,
+        "align": 0,
+        "doc": "Doxygen style for type"
+      },
+      {
+        "name": "ratio",
+        "offset": 20,
+        "type": "_146",
+        "size": 0,
+        "align": 0,
+        "doc": "!< Another Doxygen style"
+      },
+      {
+        "name": "counter",
+        "offset": 24,
+        "type": "_147",
+        "size": 0,
+        "align": 0,
+        "doc": "Counter variable."
+      }
+    ]
+  },
+  "__NSConstantString_tag": {
+    "size": 32,
+    "align": 8,
+    "members": [
+      {
+        "name": "isa",
+        "offset": 0,
+        "type": "_151",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "flags",
+        "offset": 8,
+        "type": "_143",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "str",
+        "offset": 16,
+        "type": "_152",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "length",
+        "offset": 24,
+        "type": "_147",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  }
+}

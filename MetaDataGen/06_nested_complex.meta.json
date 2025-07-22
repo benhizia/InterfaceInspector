@@ -1,0 +1,9089 @@
+{
+  "__darwin_pthread_handler_rec": {
+    "size": 24,
+    "align": 8,
+    "members": [
+      {
+        "name": "__routine",
+        "offset": 0,
+        "type": "_5961",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__arg",
+        "offset": 8,
+        "type": "_3399",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__next",
+        "offset": 16,
+        "type": "_11418",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "_opaque_pthread_attr_t": {
+    "size": 64,
+    "align": 8,
+    "members": [
+      {
+        "name": "__sig",
+        "offset": 0,
+        "type": "_3293",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__opaque",
+        "offset": 8,
+        "type": "_11422",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "_opaque_pthread_cond_t": {
+    "size": 48,
+    "align": 8,
+    "members": [
+      {
+        "name": "__sig",
+        "offset": 0,
+        "type": "_3293",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__opaque",
+        "offset": 8,
+        "type": "_11426",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "_opaque_pthread_condattr_t": {
+    "size": 16,
+    "align": 8,
+    "members": [
+      {
+        "name": "__sig",
+        "offset": 0,
+        "type": "_3293",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__opaque",
+        "offset": 8,
+        "type": "_11430",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "_opaque_pthread_mutex_t": {
+    "size": 64,
+    "align": 8,
+    "members": [
+      {
+        "name": "__sig",
+        "offset": 0,
+        "type": "_3293",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__opaque",
+        "offset": 8,
+        "type": "_11422",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "_opaque_pthread_mutexattr_t": {
+    "size": 16,
+    "align": 8,
+    "members": [
+      {
+        "name": "__sig",
+        "offset": 0,
+        "type": "_3293",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__opaque",
+        "offset": 8,
+        "type": "_11430",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "_opaque_pthread_once_t": {
+    "size": 16,
+    "align": 8,
+    "members": [
+      {
+        "name": "__sig",
+        "offset": 0,
+        "type": "_3293",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__opaque",
+        "offset": 8,
+        "type": "_11430",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "_opaque_pthread_rwlock_t": {
+    "size": 200,
+    "align": 8,
+    "members": [
+      {
+        "name": "__sig",
+        "offset": 0,
+        "type": "_3293",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__opaque",
+        "offset": 8,
+        "type": "_11443",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "_opaque_pthread_rwlockattr_t": {
+    "size": 24,
+    "align": 8,
+    "members": [
+      {
+        "name": "__sig",
+        "offset": 0,
+        "type": "_3293",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__opaque",
+        "offset": 8,
+        "type": "_11447",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "_opaque_pthread_t": {
+    "size": 8192,
+    "align": 8,
+    "members": [
+      {
+        "name": "__sig",
+        "offset": 0,
+        "type": "_3293",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__cleanup_stack",
+        "offset": 8,
+        "type": "_11418",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__opaque",
+        "offset": 16,
+        "type": "_11451",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "": {
+    "size": 4,
+    "align": 4,
+    "members": [
+      {
+        "name": "w_Stopval",
+        "offset": 0,
+        "type": "_3290",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "w_Stopsig",
+        "offset": 1,
+        "type": "_3290",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "w_Filler",
+        "offset": 2,
+        "type": "_3290",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__sbuf": {
+    "size": 16,
+    "align": 8,
+    "members": [
+      {
+        "name": "_base",
+        "offset": 0,
+        "type": "_4156",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "_size",
+        "offset": 8,
+        "type": "_3289",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__sFILEX": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__sFILE": {
+    "size": 152,
+    "align": 8,
+    "members": [
+      {
+        "name": "_p",
+        "offset": 0,
+        "type": "_4156",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "_r",
+        "offset": 8,
+        "type": "_3289",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "_w",
+        "offset": 12,
+        "type": "_3289",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "_flags",
+        "offset": 16,
+        "type": "_3287",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "_file",
+        "offset": 18,
+        "type": "_3287",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "_bf",
+        "offset": 24,
+        "type": "_11480",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "_lbfsize",
+        "offset": 40,
+        "type": "_3289",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "_cookie",
+        "offset": 48,
+        "type": "_3399",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "_close",
+        "offset": 56,
+        "type": "_3504",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "_read",
+        "offset": 64,
+        "type": "_3501",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "_seek",
+        "offset": 72,
+        "type": "_3503",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "_write",
+        "offset": 80,
+        "type": "_3502",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "_ub",
+        "offset": 88,
+        "type": "_11480",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "_extra",
+        "offset": 104,
+        "type": "_11481",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "_ur",
+        "offset": 112,
+        "type": "_3289",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "_ubuf",
+        "offset": 116,
+        "type": "_11482",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "_nbuf",
+        "offset": 119,
+        "type": "_11483",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "_lb",
+        "offset": 120,
+        "type": "_11480",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "_blksize",
+        "offset": 136,
+        "type": "_3289",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "_offset",
+        "offset": 144,
+        "type": "_296",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "timespec": {
+    "size": 16,
+    "align": 8,
+    "members": [
+      {
+        "name": "tv_sec",
+        "offset": 0,
+        "type": "_89",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "tv_nsec",
+        "offset": 8,
+        "type": "_3293",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "tm": {
+    "size": 56,
+    "align": 8,
+    "members": [
+      {
+        "name": "tm_sec",
+        "offset": 0,
+        "type": "_3289",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "tm_min",
+        "offset": 4,
+        "type": "_3289",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "tm_hour",
+        "offset": 8,
+        "type": "_3289",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "tm_mday",
+        "offset": 12,
+        "type": "_3289",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "tm_mon",
+        "offset": 16,
+        "type": "_3289",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "tm_year",
+        "offset": 20,
+        "type": "_3289",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "tm_wday",
+        "offset": 24,
+        "type": "_3289",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "tm_yday",
+        "offset": 28,
+        "type": "_3289",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "tm_isdst",
+        "offset": 32,
+        "type": "_3289",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "tm_gmtoff",
+        "offset": 40,
+        "type": "_3293",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "tm_zone",
+        "offset": 48,
+        "type": "_1710",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__float2": {
+    "size": 8,
+    "align": 4,
+    "members": [
+      {
+        "name": "__sinval",
+        "offset": 0,
+        "type": "_3401",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__cosval",
+        "offset": 4,
+        "type": "_3401",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__double2": {
+    "size": 16,
+    "align": 8,
+    "members": [
+      {
+        "name": "__sinval",
+        "offset": 0,
+        "type": "_3403",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__cosval",
+        "offset": 8,
+        "type": "_3403",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__darwin_arm_exception_state": {
+    "size": 12,
+    "align": 4,
+    "members": [
+      {
+        "name": "__exception",
+        "offset": 0,
+        "type": "_71",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__fsr",
+        "offset": 4,
+        "type": "_71",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__far",
+        "offset": 8,
+        "type": "_71",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__darwin_arm_exception_state64": {
+    "size": 16,
+    "align": 8,
+    "members": [
+      {
+        "name": "__far",
+        "offset": 0,
+        "type": "_73",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__esr",
+        "offset": 8,
+        "type": "_71",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__exception",
+        "offset": 12,
+        "type": "_71",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__darwin_arm_exception_state64_v2": {
+    "size": 16,
+    "align": 8,
+    "members": [
+      {
+        "name": "__far",
+        "offset": 0,
+        "type": "_73",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__esr",
+        "offset": 8,
+        "type": "_73",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__darwin_arm_thread_state": {
+    "size": 68,
+    "align": 4,
+    "members": [
+      {
+        "name": "__r",
+        "offset": 0,
+        "type": "_11515",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__sp",
+        "offset": 52,
+        "type": "_71",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__lr",
+        "offset": 56,
+        "type": "_71",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__pc",
+        "offset": 60,
+        "type": "_71",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__cpsr",
+        "offset": 64,
+        "type": "_71",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__darwin_arm_thread_state64": {
+    "size": 272,
+    "align": 8,
+    "members": [
+      {
+        "name": "__x",
+        "offset": 0,
+        "type": "_11519",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__fp",
+        "offset": 232,
+        "type": "_73",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__lr",
+        "offset": 240,
+        "type": "_73",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__sp",
+        "offset": 248,
+        "type": "_73",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__pc",
+        "offset": 256,
+        "type": "_73",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__cpsr",
+        "offset": 264,
+        "type": "_71",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__pad",
+        "offset": 268,
+        "type": "_71",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__darwin_arm_vfp_state": {
+    "size": 260,
+    "align": 4,
+    "members": [
+      {
+        "name": "__r",
+        "offset": 0,
+        "type": "_11523",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__fpscr",
+        "offset": 256,
+        "type": "_71",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__darwin_arm_neon_state64": {
+    "size": 528,
+    "align": 16,
+    "members": [
+      {
+        "name": "__v",
+        "offset": 0,
+        "type": "_11527",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__fpsr",
+        "offset": 512,
+        "type": "_71",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__fpcr",
+        "offset": 516,
+        "type": "_71",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__darwin_arm_neon_state": {
+    "size": 272,
+    "align": 16,
+    "members": [
+      {
+        "name": "__v",
+        "offset": 0,
+        "type": "_11531",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__fpsr",
+        "offset": 256,
+        "type": "_71",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__fpcr",
+        "offset": 260,
+        "type": "_71",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__arm_pagein_state": {
+    "size": 4,
+    "align": 4,
+    "members": [
+      {
+        "name": "__pagein_error",
+        "offset": 0,
+        "type": "_3289",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__arm_legacy_debug_state": {
+    "size": 256,
+    "align": 4,
+    "members": [
+      {
+        "name": "__bvr",
+        "offset": 0,
+        "type": "_11538",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__bcr",
+        "offset": 64,
+        "type": "_11538",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__wvr",
+        "offset": 128,
+        "type": "_11538",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__wcr",
+        "offset": 192,
+        "type": "_11538",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__darwin_arm_debug_state32": {
+    "size": 264,
+    "align": 8,
+    "members": [
+      {
+        "name": "__bvr",
+        "offset": 0,
+        "type": "_11538",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__bcr",
+        "offset": 64,
+        "type": "_11538",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__wvr",
+        "offset": 128,
+        "type": "_11538",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__wcr",
+        "offset": 192,
+        "type": "_11538",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__mdscr_el1",
+        "offset": 256,
+        "type": "_73",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__darwin_arm_debug_state64": {
+    "size": 520,
+    "align": 8,
+    "members": [
+      {
+        "name": "__bvr",
+        "offset": 0,
+        "type": "_11545",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__bcr",
+        "offset": 128,
+        "type": "_11545",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__wvr",
+        "offset": 256,
+        "type": "_11545",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__wcr",
+        "offset": 384,
+        "type": "_11545",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__mdscr_el1",
+        "offset": 512,
+        "type": "_73",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__darwin_arm_cpmu_state64": {
+    "size": 128,
+    "align": 8,
+    "members": [
+      {
+        "name": "__ctrs",
+        "offset": 0,
+        "type": "_11545",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__darwin_mcontext32": {
+    "size": 340,
+    "align": 4,
+    "members": [
+      {
+        "name": "__es",
+        "offset": 0,
+        "type": "_11552",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__ss",
+        "offset": 12,
+        "type": "_11553",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__fs",
+        "offset": 80,
+        "type": "_11554",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__darwin_mcontext64": {
+    "size": 816,
+    "align": 16,
+    "members": [
+      {
+        "name": "__es",
+        "offset": 0,
+        "type": "_11558",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__ss",
+        "offset": 16,
+        "type": "_11559",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__ns",
+        "offset": 288,
+        "type": "_11560",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__darwin_sigaltstack": {
+    "size": 24,
+    "align": 8,
+    "members": [
+      {
+        "name": "ss_sp",
+        "offset": 0,
+        "type": "_3399",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ss_size",
+        "offset": 8,
+        "type": "_81",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ss_flags",
+        "offset": 16,
+        "type": "_3289",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__darwin_ucontext": {
+    "size": 56,
+    "align": 8,
+    "members": [
+      {
+        "name": "uc_onstack",
+        "offset": 0,
+        "type": "_3289",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "uc_sigmask",
+        "offset": 4,
+        "type": "_104",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "uc_stack",
+        "offset": 8,
+        "type": "_3723",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "uc_link",
+        "offset": 32,
+        "type": "_11568",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "uc_mcsize",
+        "offset": 40,
+        "type": "_81",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "uc_mcontext",
+        "offset": 48,
+        "type": "_3713",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "sigevent": {
+    "size": 32,
+    "align": 8,
+    "members": [
+      {
+        "name": "sigev_notify",
+        "offset": 0,
+        "type": "_3289",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "sigev_signo",
+        "offset": 4,
+        "type": "_3289",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "sigev_value",
+        "offset": 8,
+        "type": "_11575",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "sigev_notify_function",
+        "offset": 16,
+        "type": "_11576",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "sigev_notify_attributes",
+        "offset": 24,
+        "type": "_4182",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__siginfo": {
+    "size": 104,
+    "align": 8,
+    "members": [
+      {
+        "name": "si_signo",
+        "offset": 0,
+        "type": "_3289",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "si_errno",
+        "offset": 4,
+        "type": "_3289",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "si_code",
+        "offset": 8,
+        "type": "_3289",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "si_pid",
+        "offset": 12,
+        "type": "_893",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "si_uid",
+        "offset": 16,
+        "type": "_918",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "si_status",
+        "offset": 20,
+        "type": "_3289",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "si_addr",
+        "offset": 24,
+        "type": "_3399",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "si_value",
+        "offset": 32,
+        "type": "_11575",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "si_band",
+        "offset": 40,
+        "type": "_3293",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__pad",
+        "offset": 48,
+        "type": "_11580",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__sigaction": {
+    "size": 24,
+    "align": 8,
+    "members": [
+      {
+        "name": "__sigaction_u",
+        "offset": 0,
+        "type": "_11588",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "sa_tramp",
+        "offset": 8,
+        "type": "_11589",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "sa_mask",
+        "offset": 16,
+        "type": "_917",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "sa_flags",
+        "offset": 20,
+        "type": "_3289",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "sigaction": {
+    "size": 16,
+    "align": 8,
+    "members": [
+      {
+        "name": "__sigaction_u",
+        "offset": 0,
+        "type": "_11588",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "sa_mask",
+        "offset": 8,
+        "type": "_917",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "sa_flags",
+        "offset": 12,
+        "type": "_3289",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "sigvec": {
+    "size": 16,
+    "align": 8,
+    "members": [
+      {
+        "name": "sv_handler",
+        "offset": 0,
+        "type": "_3800",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "sv_mask",
+        "offset": 8,
+        "type": "_3289",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "sv_flags",
+        "offset": 12,
+        "type": "_3289",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "sigstack": {
+    "size": 16,
+    "align": 8,
+    "members": [
+      {
+        "name": "ss_sp",
+        "offset": 0,
+        "type": "_1710",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ss_onstack",
+        "offset": 8,
+        "type": "_3289",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "timeval": {
+    "size": 16,
+    "align": 8,
+    "members": [
+      {
+        "name": "tv_sec",
+        "offset": 0,
+        "type": "_89",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "tv_usec",
+        "offset": 8,
+        "type": "_105",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "rusage": {
+    "size": 144,
+    "align": 8,
+    "members": [
+      {
+        "name": "ru_utime",
+        "offset": 0,
+        "type": "_11606",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ru_stime",
+        "offset": 16,
+        "type": "_11606",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ru_maxrss",
+        "offset": 32,
+        "type": "_3293",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ru_ixrss",
+        "offset": 40,
+        "type": "_3293",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ru_idrss",
+        "offset": 48,
+        "type": "_3293",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ru_isrss",
+        "offset": 56,
+        "type": "_3293",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ru_minflt",
+        "offset": 64,
+        "type": "_3293",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ru_majflt",
+        "offset": 72,
+        "type": "_3293",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ru_nswap",
+        "offset": 80,
+        "type": "_3293",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ru_inblock",
+        "offset": 88,
+        "type": "_3293",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ru_oublock",
+        "offset": 96,
+        "type": "_3293",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ru_msgsnd",
+        "offset": 104,
+        "type": "_3293",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ru_msgrcv",
+        "offset": 112,
+        "type": "_3293",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ru_nsignals",
+        "offset": 120,
+        "type": "_3293",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ru_nvcsw",
+        "offset": 128,
+        "type": "_3293",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ru_nivcsw",
+        "offset": 136,
+        "type": "_3293",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "rusage_info_v0": {
+    "size": 96,
+    "align": 8,
+    "members": [
+      {
+        "name": "ri_uuid",
+        "offset": 0,
+        "type": "_11610",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_user_time",
+        "offset": 16,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_system_time",
+        "offset": 24,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_pkg_idle_wkups",
+        "offset": 32,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_interrupt_wkups",
+        "offset": 40,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_pageins",
+        "offset": 48,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_wired_size",
+        "offset": 56,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_resident_size",
+        "offset": 64,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_phys_footprint",
+        "offset": 72,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_proc_start_abstime",
+        "offset": 80,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_proc_exit_abstime",
+        "offset": 88,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "rusage_info_v1": {
+    "size": 144,
+    "align": 8,
+    "members": [
+      {
+        "name": "ri_uuid",
+        "offset": 0,
+        "type": "_11610",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_user_time",
+        "offset": 16,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_system_time",
+        "offset": 24,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_pkg_idle_wkups",
+        "offset": 32,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_interrupt_wkups",
+        "offset": 40,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_pageins",
+        "offset": 48,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_wired_size",
+        "offset": 56,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_resident_size",
+        "offset": 64,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_phys_footprint",
+        "offset": 72,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_proc_start_abstime",
+        "offset": 80,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_proc_exit_abstime",
+        "offset": 88,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_child_user_time",
+        "offset": 96,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_child_system_time",
+        "offset": 104,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_child_pkg_idle_wkups",
+        "offset": 112,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_child_interrupt_wkups",
+        "offset": 120,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_child_pageins",
+        "offset": 128,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_child_elapsed_abstime",
+        "offset": 136,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "rusage_info_v2": {
+    "size": 160,
+    "align": 8,
+    "members": [
+      {
+        "name": "ri_uuid",
+        "offset": 0,
+        "type": "_11610",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_user_time",
+        "offset": 16,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_system_time",
+        "offset": 24,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_pkg_idle_wkups",
+        "offset": 32,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_interrupt_wkups",
+        "offset": 40,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_pageins",
+        "offset": 48,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_wired_size",
+        "offset": 56,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_resident_size",
+        "offset": 64,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_phys_footprint",
+        "offset": 72,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_proc_start_abstime",
+        "offset": 80,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_proc_exit_abstime",
+        "offset": 88,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_child_user_time",
+        "offset": 96,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_child_system_time",
+        "offset": 104,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_child_pkg_idle_wkups",
+        "offset": 112,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_child_interrupt_wkups",
+        "offset": 120,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_child_pageins",
+        "offset": 128,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_child_elapsed_abstime",
+        "offset": 136,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_diskio_bytesread",
+        "offset": 144,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_diskio_byteswritten",
+        "offset": 152,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "rusage_info_v3": {
+    "size": 232,
+    "align": 8,
+    "members": [
+      {
+        "name": "ri_uuid",
+        "offset": 0,
+        "type": "_11610",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_user_time",
+        "offset": 16,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_system_time",
+        "offset": 24,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_pkg_idle_wkups",
+        "offset": 32,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_interrupt_wkups",
+        "offset": 40,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_pageins",
+        "offset": 48,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_wired_size",
+        "offset": 56,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_resident_size",
+        "offset": 64,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_phys_footprint",
+        "offset": 72,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_proc_start_abstime",
+        "offset": 80,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_proc_exit_abstime",
+        "offset": 88,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_child_user_time",
+        "offset": 96,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_child_system_time",
+        "offset": 104,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_child_pkg_idle_wkups",
+        "offset": 112,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_child_interrupt_wkups",
+        "offset": 120,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_child_pageins",
+        "offset": 128,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_child_elapsed_abstime",
+        "offset": 136,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_diskio_bytesread",
+        "offset": 144,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_diskio_byteswritten",
+        "offset": 152,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_cpu_time_qos_default",
+        "offset": 160,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_cpu_time_qos_maintenance",
+        "offset": 168,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_cpu_time_qos_background",
+        "offset": 176,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_cpu_time_qos_utility",
+        "offset": 184,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_cpu_time_qos_legacy",
+        "offset": 192,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_cpu_time_qos_user_initiated",
+        "offset": 200,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_cpu_time_qos_user_interactive",
+        "offset": 208,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_billed_system_time",
+        "offset": 216,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_serviced_system_time",
+        "offset": 224,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "rusage_info_v4": {
+    "size": 296,
+    "align": 8,
+    "members": [
+      {
+        "name": "ri_uuid",
+        "offset": 0,
+        "type": "_11610",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_user_time",
+        "offset": 16,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_system_time",
+        "offset": 24,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_pkg_idle_wkups",
+        "offset": 32,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_interrupt_wkups",
+        "offset": 40,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_pageins",
+        "offset": 48,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_wired_size",
+        "offset": 56,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_resident_size",
+        "offset": 64,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_phys_footprint",
+        "offset": 72,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_proc_start_abstime",
+        "offset": 80,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_proc_exit_abstime",
+        "offset": 88,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_child_user_time",
+        "offset": 96,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_child_system_time",
+        "offset": 104,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_child_pkg_idle_wkups",
+        "offset": 112,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_child_interrupt_wkups",
+        "offset": 120,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_child_pageins",
+        "offset": 128,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_child_elapsed_abstime",
+        "offset": 136,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_diskio_bytesread",
+        "offset": 144,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_diskio_byteswritten",
+        "offset": 152,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_cpu_time_qos_default",
+        "offset": 160,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_cpu_time_qos_maintenance",
+        "offset": 168,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_cpu_time_qos_background",
+        "offset": 176,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_cpu_time_qos_utility",
+        "offset": 184,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_cpu_time_qos_legacy",
+        "offset": 192,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_cpu_time_qos_user_initiated",
+        "offset": 200,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_cpu_time_qos_user_interactive",
+        "offset": 208,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_billed_system_time",
+        "offset": 216,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_serviced_system_time",
+        "offset": 224,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_logical_writes",
+        "offset": 232,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_lifetime_max_phys_footprint",
+        "offset": 240,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_instructions",
+        "offset": 248,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_cycles",
+        "offset": 256,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_billed_energy",
+        "offset": 264,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_serviced_energy",
+        "offset": 272,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_interval_max_phys_footprint",
+        "offset": 280,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_runnable_time",
+        "offset": 288,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "rusage_info_v5": {
+    "size": 304,
+    "align": 8,
+    "members": [
+      {
+        "name": "ri_uuid",
+        "offset": 0,
+        "type": "_11610",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_user_time",
+        "offset": 16,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_system_time",
+        "offset": 24,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_pkg_idle_wkups",
+        "offset": 32,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_interrupt_wkups",
+        "offset": 40,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_pageins",
+        "offset": 48,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_wired_size",
+        "offset": 56,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_resident_size",
+        "offset": 64,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_phys_footprint",
+        "offset": 72,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_proc_start_abstime",
+        "offset": 80,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_proc_exit_abstime",
+        "offset": 88,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_child_user_time",
+        "offset": 96,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_child_system_time",
+        "offset": 104,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_child_pkg_idle_wkups",
+        "offset": 112,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_child_interrupt_wkups",
+        "offset": 120,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_child_pageins",
+        "offset": 128,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_child_elapsed_abstime",
+        "offset": 136,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_diskio_bytesread",
+        "offset": 144,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_diskio_byteswritten",
+        "offset": 152,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_cpu_time_qos_default",
+        "offset": 160,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_cpu_time_qos_maintenance",
+        "offset": 168,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_cpu_time_qos_background",
+        "offset": 176,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_cpu_time_qos_utility",
+        "offset": 184,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_cpu_time_qos_legacy",
+        "offset": 192,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_cpu_time_qos_user_initiated",
+        "offset": 200,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_cpu_time_qos_user_interactive",
+        "offset": 208,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_billed_system_time",
+        "offset": 216,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_serviced_system_time",
+        "offset": 224,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_logical_writes",
+        "offset": 232,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_lifetime_max_phys_footprint",
+        "offset": 240,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_instructions",
+        "offset": 248,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_cycles",
+        "offset": 256,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_billed_energy",
+        "offset": 264,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_serviced_energy",
+        "offset": 272,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_interval_max_phys_footprint",
+        "offset": 280,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_runnable_time",
+        "offset": 288,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_flags",
+        "offset": 296,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "rusage_info_v6": {
+    "size": 464,
+    "align": 8,
+    "members": [
+      {
+        "name": "ri_uuid",
+        "offset": 0,
+        "type": "_11610",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_user_time",
+        "offset": 16,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_system_time",
+        "offset": 24,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_pkg_idle_wkups",
+        "offset": 32,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_interrupt_wkups",
+        "offset": 40,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_pageins",
+        "offset": 48,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_wired_size",
+        "offset": 56,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_resident_size",
+        "offset": 64,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_phys_footprint",
+        "offset": 72,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_proc_start_abstime",
+        "offset": 80,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_proc_exit_abstime",
+        "offset": 88,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_child_user_time",
+        "offset": 96,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_child_system_time",
+        "offset": 104,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_child_pkg_idle_wkups",
+        "offset": 112,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_child_interrupt_wkups",
+        "offset": 120,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_child_pageins",
+        "offset": 128,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_child_elapsed_abstime",
+        "offset": 136,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_diskio_bytesread",
+        "offset": 144,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_diskio_byteswritten",
+        "offset": 152,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_cpu_time_qos_default",
+        "offset": 160,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_cpu_time_qos_maintenance",
+        "offset": 168,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_cpu_time_qos_background",
+        "offset": 176,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_cpu_time_qos_utility",
+        "offset": 184,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_cpu_time_qos_legacy",
+        "offset": 192,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_cpu_time_qos_user_initiated",
+        "offset": 200,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_cpu_time_qos_user_interactive",
+        "offset": 208,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_billed_system_time",
+        "offset": 216,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_serviced_system_time",
+        "offset": 224,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_logical_writes",
+        "offset": 232,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_lifetime_max_phys_footprint",
+        "offset": 240,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_instructions",
+        "offset": 248,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_cycles",
+        "offset": 256,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_billed_energy",
+        "offset": 264,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_serviced_energy",
+        "offset": 272,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_interval_max_phys_footprint",
+        "offset": 280,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_runnable_time",
+        "offset": 288,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_flags",
+        "offset": 296,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_user_ptime",
+        "offset": 304,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_system_ptime",
+        "offset": 312,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_pinstructions",
+        "offset": 320,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_pcycles",
+        "offset": 328,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_energy_nj",
+        "offset": 336,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_penergy_nj",
+        "offset": 344,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_secure_time_in_system",
+        "offset": 352,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_secure_ptime_in_system",
+        "offset": 360,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_neural_footprint",
+        "offset": 368,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_lifetime_max_neural_footprint",
+        "offset": 376,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_interval_max_neural_footprint",
+        "offset": 384,
+        "type": "_170",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "ri_reserved",
+        "offset": 392,
+        "type": "_11629",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "rlimit": {
+    "size": 16,
+    "align": 8,
+    "members": [
+      {
+        "name": "rlim_cur",
+        "offset": 0,
+        "type": "_931",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "rlim_max",
+        "offset": 8,
+        "type": "_931",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "proc_rlimit_control_wakeupmon": {
+    "size": 8,
+    "align": 4,
+    "members": [
+      {
+        "name": "wm_flags",
+        "offset": 0,
+        "type": "_169",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "wm_rate",
+        "offset": 4,
+        "type": "_135",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "sched_param": {
+    "size": 8,
+    "align": 4,
+    "members": [
+      {
+        "name": "sched_priority",
+        "offset": 0,
+        "type": "_3289",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__opaque",
+        "offset": 4,
+        "type": "_11680",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__NSConstantString_tag": {
+    "size": 32,
+    "align": 8,
+    "members": [
+      {
+        "name": "isa",
+        "offset": 0,
+        "type": "_11727",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "flags",
+        "offset": 8,
+        "type": "_3289",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "str",
+        "offset": 16,
+        "type": "_3402",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "length",
+        "offset": 24,
+        "type": "_3293",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__equal_tag": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__plus_tag": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__less_tag": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__greater_tag": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__totally_ordered_less_tag": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__can_be_converted_to_string_view<char, std::char_traits<char>, std::string>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__can_be_converted_to_string_view<wchar_t, std::char_traits<wchar_t>, std::wstring>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__can_be_converted_to_string_view<char, std::char_traits<char>, const char *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__can_be_converted_to_string_view<wchar_t, std::char_traits<wchar_t>, const wchar_t *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__can_be_converted_to_string_view<char16_t, std::char_traits<char16_t>, const char16_t *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__can_be_converted_to_string_view<char32_t, std::char_traits<char32_t>, const char32_t *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__uninitialized_size_tag": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__init_with_sentinel_tag": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__padding<0>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__padding<3>": {
+    "size": 3,
+    "align": 1,
+    "members": [
+      {
+        "name": "__padding_",
+        "offset": 0,
+        "type": "_11770",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__padding<1>": {
+    "size": 1,
+    "align": 1,
+    "members": [
+      {
+        "name": "__padding_",
+        "offset": 0,
+        "type": "_11774",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__low_byte_fn": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_random_is_valid_realtype<float>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_random_is_valid_realtype<double>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_random_is_valid_realtype<long double>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_random_is_valid_inttype<signed char>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_random_is_valid_inttype<short>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_random_is_valid_inttype<int>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_random_is_valid_inttype<long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_random_is_valid_inttype<long long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_random_is_valid_inttype<unsigned char>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_random_is_valid_inttype<unsigned short>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_random_is_valid_inttype<unsigned int>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_random_is_valid_inttype<unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_random_is_valid_inttype<unsigned long long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_random_is_valid_inttype<__int128>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_random_is_valid_inttype<unsigned __int128>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__get_as_integer_type_impl<1>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__get_as_integer_type_impl<2>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__get_as_integer_type_impl<4>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__get_as_integer_type_impl<8>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__destruct_n": {
+    "size": 8,
+    "align": 8,
+    "members": [
+      {
+        "name": "__size_",
+        "offset": 0,
+        "type": "_3090",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__for_overwrite_tag": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__shared_ptr_dummy_rebind_allocator_type": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "owner_less<>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "hash<bool>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "hash<char>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "hash<signed char>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "hash<unsigned char>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "hash<char16_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "hash<char32_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "hash<wchar_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "hash<short>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "hash<unsigned short>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "hash<int>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "hash<unsigned int>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "hash<long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "hash<unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "hash<long long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "hash<unsigned long long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "hash<__int128>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "hash<unsigned __int128>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "hash<float>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "hash<double>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "hash<long double>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "hash<std::nullptr_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "hash<std::string_view>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "hash<std::u16string_view>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "hash<std::u32string_view>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "hash<std::wstring_view>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "hash<std::monostate>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__unique_ptr_array_bounds_stateless": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__unique_ptr_array_bounds_stored": {
+    "size": 8,
+    "align": 8,
+    "members": [
+      {
+        "name": "__size_",
+        "offset": 0,
+        "type": "_3090",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__private_constructor_tag": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__always_false": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__convert_to_bool<std::equal_to<void>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__convert_to_bool<std::not_equal_to<void>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__convert_to_bool<std::less<void>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__convert_to_bool<std::greater<void>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__convert_to_bool<std::less_equal<void>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__convert_to_bool<std::greater_equal<void>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "monostate": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "plus<>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "minus<>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "multiplies<>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "divides<>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "modulus<>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "negate<>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "bit_and<>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "bit_not<>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "bit_or<>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "bit_xor<>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "equal_to<>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "not_equal_to<>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "less<>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "less_equal<>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "greater_equal<>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "greater<>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "logical_and<>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "logical_not<>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "logical_or<>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "atomic_flag": {
+    "size": 1,
+    "align": 1,
+    "members": [
+      {
+        "name": "__a_",
+        "offset": 0,
+        "type": "_2152",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "atomic<bool>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "atomic<char>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "atomic<signed char>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "atomic<unsigned char>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "atomic<short>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "atomic<unsigned short>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "atomic<int>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "atomic<unsigned int>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "atomic<long>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "atomic<unsigned long>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "atomic<long long>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "atomic<unsigned long long>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "atomic<char16_t>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "atomic<char32_t>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "atomic<wchar_t>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__atomic_waitable_traits<std::atomic_flag>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__spinning_backoff_policy": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__ratio_divide<std::ratio<1, 1000000000>, std::ratio<1>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__ratio_divide<std::ratio<1>, std::ratio<1, 1000000000>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__cxx_atomic_impl<long long>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__cxx_atomic_impl<bool>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__cxx_atomic_base_impl<long long>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__cxx_atomic_base_impl<bool>": {
+    "size": 1,
+    "align": 1,
+    "members": [
+      {
+        "name": "__a_value",
+        "offset": 0,
+        "type": "_12833",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "nullopt_t": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__optional_construct_from_invoke_tag": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__copy_impl": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__string_view_hash<char>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__string_view_hash<char16_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__string_view_hash<char32_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__string_view_hash<wchar_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__is_allocator<std::allocator<char>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__is_allocator<std::allocator<wchar_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__is_allocator<std::allocator<char16_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__is_allocator<std::allocator<char32_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "char_traits<char>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "char_traits<char16_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "char_traits<char32_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "char_traits<wchar_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__char_traits_base<wchar_t, int, -1>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__char_traits_base<char16_t, unsigned short, 65535>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__char_traits_base<char32_t, unsigned int, 4294967295>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "_IterOps<std::_ClassicAlgPolicy>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "_ClassicAlgPolicy": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "in_place_t": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "in_place_index_t<0>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__type_info_implementations": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__tuple_equal<0>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__tuple_less<0>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__tuple_cat_return<>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__tuple_sfinae_base": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__check_tuple_constructor_fail": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__sfinae_ctor_base<false, false>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__sfinae_ctor_base<true, false>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__sfinae_ctor_base<false, true>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__sfinae_assign_base<false, false>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__sfinae_assign_base<true, false>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__sfinae_assign_base<false, true>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__ignore_type": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "allocator_arg_t": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__noexcept_move_assign_container<std::allocator<char>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__noexcept_move_assign_container<std::allocator<wchar_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__noexcept_move_assign_container<std::allocator<char16_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__noexcept_move_assign_container<std::allocator<char32_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__non_trivial_if<true, std::allocator<char>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__non_trivial_if<true, std::allocator<wchar_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__non_trivial_if<true, std::allocator<char16_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__non_trivial_if<true, std::allocator<char32_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "nothrow_t": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__allocation_result<char *>": {
+    "size": 16,
+    "align": 8,
+    "members": [
+      {
+        "name": "ptr",
+        "offset": 0,
+        "type": "_1710",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "count",
+        "offset": 8,
+        "type": "_3090",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__allocation_result<wchar_t *>": {
+    "size": 16,
+    "align": 8,
+    "members": [
+      {
+        "name": "ptr",
+        "offset": 0,
+        "type": "_3538",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "count",
+        "offset": 8,
+        "type": "_3090",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__allocation_result<char16_t *>": {
+    "size": 16,
+    "align": 8,
+    "members": [
+      {
+        "name": "ptr",
+        "offset": 0,
+        "type": "_7251",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "count",
+        "offset": 8,
+        "type": "_3090",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__allocation_result<char32_t *>": {
+    "size": 16,
+    "align": 8,
+    "members": [
+      {
+        "name": "ptr",
+        "offset": 0,
+        "type": "_7252",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "count",
+        "offset": 8,
+        "type": "_3090",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__has_const_pointer<std::allocator<char>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__has_const_pointer<std::allocator<wchar_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__has_const_pointer<std::allocator<char16_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__has_const_pointer<std::allocator<char32_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__const_pointer<char, char *, std::allocator<char>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__const_pointer<wchar_t, wchar_t *, std::allocator<wchar_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__const_pointer<char16_t, char16_t *, std::allocator<char16_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__const_pointer<char32_t, char32_t *, std::allocator<char32_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__has_void_pointer<std::allocator<char>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__has_void_pointer<std::allocator<wchar_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__has_void_pointer<std::allocator<char16_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__has_void_pointer<std::allocator<char32_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__void_pointer<char *, std::allocator<char>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__void_pointer<wchar_t *, std::allocator<wchar_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__void_pointer<char16_t *, std::allocator<char16_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__void_pointer<char32_t *, std::allocator<char32_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__has_const_void_pointer<std::allocator<char>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__has_const_void_pointer<std::allocator<wchar_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__has_const_void_pointer<std::allocator<char16_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__has_const_void_pointer<std::allocator<char32_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__const_void_pointer<char *, std::allocator<char>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__const_void_pointer<wchar_t *, std::allocator<wchar_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__const_void_pointer<char16_t *, std::allocator<char16_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__const_void_pointer<char32_t *, std::allocator<char32_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__has_alloc_traits_difference_type<std::allocator<char>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__has_alloc_traits_difference_type<std::allocator<wchar_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__has_alloc_traits_difference_type<std::allocator<char16_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__has_alloc_traits_difference_type<std::allocator<char32_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__alloc_traits_difference_type<std::allocator<char>, char *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__alloc_traits_difference_type<std::allocator<wchar_t>, wchar_t *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__alloc_traits_difference_type<std::allocator<char16_t>, char16_t *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__alloc_traits_difference_type<std::allocator<char32_t>, char32_t *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__has_rebind_other<std::allocator<char>, char>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__has_rebind_other<std::allocator<wchar_t>, wchar_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__has_rebind_other<std::allocator<char16_t>, char16_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__has_rebind_other<std::allocator<char32_t>, char32_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__allocator_traits_rebind<std::allocator<char>, char>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__allocator_traits_rebind<std::allocator<wchar_t>, wchar_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__allocator_traits_rebind<std::allocator<char16_t>, char16_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__allocator_traits_rebind<std::allocator<char32_t>, char32_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__has_max_size<const std::allocator<char>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__has_max_size<const std::allocator<wchar_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__has_max_size<const std::allocator<char16_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__has_max_size<const std::allocator<char32_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__has_select_on_container_copy_construction<const std::allocator<char>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__has_select_on_container_copy_construction<const std::allocator<wchar_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__has_select_on_container_copy_construction<const std::allocator<char16_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__has_select_on_container_copy_construction<const std::allocator<char32_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "allocator_traits<std::allocator<char>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "allocator_traits<std::allocator<wchar_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "allocator_traits<std::allocator<char16_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "allocator_traits<std::allocator<char32_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__check_valid_allocator<std::allocator<char>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__check_valid_allocator<std::allocator<wchar_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__check_valid_allocator<std::allocator<char16_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__check_valid_allocator<std::allocator<char32_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__detector<char *, void, std::__pointer_member, std::allocator<char>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__detector<unsigned long, void, std::__size_type_member, std::allocator<char>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__detector<std::integral_constant<bool, false>, void, std::__propagate_on_container_copy_assignment_member, std::allocator<char>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__detector<std::integral_constant<bool, false>, void, std::__propagate_on_container_move_assignment_member, std::allocator<char>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__detector<std::integral_constant<bool, false>, void, std::__propagate_on_container_swap_member, std::allocator<char>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__detector<std::integral_constant<bool, true>, void, std::__is_always_equal_member, std::allocator<char>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__detector<wchar_t *, void, std::__pointer_member, std::allocator<wchar_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__detector<unsigned long, void, std::__size_type_member, std::allocator<wchar_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__detector<std::integral_constant<bool, false>, void, std::__propagate_on_container_copy_assignment_member, std::allocator<wchar_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__detector<std::integral_constant<bool, false>, void, std::__propagate_on_container_move_assignment_member, std::allocator<wchar_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__detector<std::integral_constant<bool, false>, void, std::__propagate_on_container_swap_member, std::allocator<wchar_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__detector<std::integral_constant<bool, true>, void, std::__is_always_equal_member, std::allocator<wchar_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__detector<char16_t *, void, std::__pointer_member, std::allocator<char16_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__detector<unsigned long, void, std::__size_type_member, std::allocator<char16_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__detector<std::integral_constant<bool, false>, void, std::__propagate_on_container_copy_assignment_member, std::allocator<char16_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__detector<std::integral_constant<bool, false>, void, std::__propagate_on_container_move_assignment_member, std::allocator<char16_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__detector<std::integral_constant<bool, false>, void, std::__propagate_on_container_swap_member, std::allocator<char16_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__detector<std::integral_constant<bool, true>, void, std::__is_always_equal_member, std::allocator<char16_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__detector<char32_t *, void, std::__pointer_member, std::allocator<char32_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__detector<unsigned long, void, std::__size_type_member, std::allocator<char32_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__detector<std::integral_constant<bool, false>, void, std::__propagate_on_container_copy_assignment_member, std::allocator<char32_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__detector<std::integral_constant<bool, false>, void, std::__propagate_on_container_move_assignment_member, std::allocator<char32_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__detector<std::integral_constant<bool, false>, void, std::__propagate_on_container_swap_member, std::allocator<char32_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__detector<std::integral_constant<bool, true>, void, std::__is_always_equal_member, std::allocator<char32_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "iterator<std::output_iterator_tag, void, void, void, void>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__sfinae_underlying_type<unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__murmur2_or_cityhash<unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__scalar_hash<std::_PairT>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__scalar_hash<long long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__scalar_hash<unsigned long long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__scalar_hash<__int128>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__scalar_hash<unsigned __int128>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__scalar_hash<float>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__scalar_hash<double>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__scalar_hash<long double>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "_PairT": {
+    "size": 16,
+    "align": 8,
+    "members": [
+      {
+        "name": "first",
+        "offset": 0,
+        "type": "_3090",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "second",
+        "offset": 8,
+        "type": "_3090",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "pair<unsigned long, unsigned long>": {
+    "size": 16,
+    "align": 8,
+    "members": [
+      {
+        "name": "first",
+        "offset": 0,
+        "type": "_3303",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "second",
+        "offset": 8,
+        "type": "_3303",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__get_pair<0>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__get_pair<1>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "piecewise_construct_t": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_trivially_relocatable<std::allocator<char>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_trivially_relocatable<char *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_trivially_relocatable<std::allocator<wchar_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_trivially_relocatable<wchar_t *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_trivially_relocatable<std::allocator<char16_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_trivially_relocatable<char16_t *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_trivially_relocatable<std::allocator<char32_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_trivially_relocatable<char32_t *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_trivially_relocatable<unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__tuple_types<>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__tuple_indices<>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__make_tuple_indices<0>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__integer_sequence<unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "integer_sequence<unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__unary_function_keep_layout_base<std::_PairT, unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__unary_function_keep_layout_base<bool, unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__unary_function_keep_layout_base<char, unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__unary_function_keep_layout_base<signed char, unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__unary_function_keep_layout_base<unsigned char, unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__unary_function_keep_layout_base<char16_t, unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__unary_function_keep_layout_base<char32_t, unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__unary_function_keep_layout_base<wchar_t, unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__unary_function_keep_layout_base<short, unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__unary_function_keep_layout_base<unsigned short, unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__unary_function_keep_layout_base<int, unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__unary_function_keep_layout_base<unsigned int, unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__unary_function_keep_layout_base<long, unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__unary_function_keep_layout_base<unsigned long, unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__unary_function_keep_layout_base<long long, unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__unary_function_keep_layout_base<unsigned long long, unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__unary_function_keep_layout_base<__int128, unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__unary_function_keep_layout_base<unsigned __int128, unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__unary_function_keep_layout_base<float, unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__unary_function_keep_layout_base<double, unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__unary_function_keep_layout_base<long double, unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__unary_function_keep_layout_base<std::nullptr_t, unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__unary_function_keep_layout_base<std::string_view, unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__unary_function_keep_layout_base<std::u16string_view, unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__unary_function_keep_layout_base<std::u32string_view, unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__unary_function_keep_layout_base<std::wstring_view, unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__is_less_than_comparable<const char *, const char *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__is_less_than_comparable<const wchar_t *, const wchar_t *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__is_less_than_comparable<const char16_t *, const char16_t *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__is_less_than_comparable<const char32_t *, const char32_t *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__is_equality_comparable<char, char>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__is_equality_comparable<wchar_t, wchar_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__is_equality_comparable<char16_t, char16_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__is_equality_comparable<char32_t, char32_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_trivially_equality_comparable_impl<char, char>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_trivially_equality_comparable_impl<wchar_t, wchar_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_trivially_equality_comparable_impl<char16_t, char16_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_trivially_equality_comparable_impl<char32_t, char32_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__is_always_bitcastable<const char, char>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__is_always_bitcastable<const wchar_t, wchar_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__is_always_bitcastable<const char16_t, char16_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__is_always_bitcastable<const char32_t, char32_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "_FirstPaddingByte<char>": {
+    "size": 2,
+    "align": 1,
+    "members": [
+      {
+        "name": "__v_",
+        "offset": 0,
+        "type": "_4264",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__first_padding_byte_",
+        "offset": 1,
+        "type": "_4264",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "_FirstPaddingByte<std::basic_string<char>::__rep>": {
+    "size": 32,
+    "align": 8,
+    "members": [
+      {
+        "name": "__v_",
+        "offset": 0,
+        "type": "_4427",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__first_padding_byte_",
+        "offset": 24,
+        "type": "_4264",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "_FirstPaddingByte<std::allocator<char>>": {
+    "size": 1,
+    "align": 1,
+    "members": [
+      {
+        "name": "__v_",
+        "offset": 0,
+        "type": "_2356",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__first_padding_byte_",
+        "offset": 0,
+        "type": "_4264",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "_FirstPaddingByte<std::basic_string<wchar_t>::__rep>": {
+    "size": 32,
+    "align": 8,
+    "members": [
+      {
+        "name": "__v_",
+        "offset": 0,
+        "type": "_4649",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__first_padding_byte_",
+        "offset": 24,
+        "type": "_4264",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "_FirstPaddingByte<std::allocator<wchar_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": [
+      {
+        "name": "__v_",
+        "offset": 0,
+        "type": "_2357",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__first_padding_byte_",
+        "offset": 0,
+        "type": "_4264",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "_FirstPaddingByte<std::basic_string<char16_t>::__rep>": {
+    "size": 32,
+    "align": 8,
+    "members": [
+      {
+        "name": "__v_",
+        "offset": 0,
+        "type": "_4871",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__first_padding_byte_",
+        "offset": 24,
+        "type": "_4264",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "_FirstPaddingByte<std::allocator<char16_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": [
+      {
+        "name": "__v_",
+        "offset": 0,
+        "type": "_2358",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__first_padding_byte_",
+        "offset": 0,
+        "type": "_4264",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "_FirstPaddingByte<std::basic_string<char32_t>::__rep>": {
+    "size": 32,
+    "align": 8,
+    "members": [
+      {
+        "name": "__v_",
+        "offset": 0,
+        "type": "_5095",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__first_padding_byte_",
+        "offset": 24,
+        "type": "_4264",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "_FirstPaddingByte<std::allocator<char32_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": [
+      {
+        "name": "__v_",
+        "offset": 0,
+        "type": "_2359",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__first_padding_byte_",
+        "offset": 0,
+        "type": "_4264",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "_FirstPaddingByte<wchar_t>": {
+    "size": 8,
+    "align": 4,
+    "members": [
+      {
+        "name": "__v_",
+        "offset": 0,
+        "type": "_3539",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__first_padding_byte_",
+        "offset": 4,
+        "type": "_4264",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "_FirstPaddingByte<char16_t>": {
+    "size": 4,
+    "align": 2,
+    "members": [
+      {
+        "name": "__v_",
+        "offset": 0,
+        "type": "_4313",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__first_padding_byte_",
+        "offset": 2,
+        "type": "_4264",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "_FirstPaddingByte<char32_t>": {
+    "size": 8,
+    "align": 4,
+    "members": [
+      {
+        "name": "__v_",
+        "offset": 0,
+        "type": "_4315",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__first_padding_byte_",
+        "offset": 4,
+        "type": "_4264",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__libcpp_is_final<std::basic_string<char>::__rep>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_final<std::allocator<char>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_final<std::basic_string<wchar_t>::__rep>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_final<std::allocator<wchar_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_final<std::basic_string<char16_t>::__rep>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_final<std::allocator<char16_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_final<std::basic_string<char32_t>::__rep>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_final<std::allocator<char32_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__underlying_type_impl<std::__legacy_memory_order, true>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "underlying_type<std::__legacy_memory_order>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_volatile<char>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_volatile<wchar_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_volatile<char16_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_volatile<char32_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_trivially_copyable<char>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_trivially_copyable<bool>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_trivially_copyable<std::allocator<char>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_trivially_copyable<char *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_trivially_copyable<std::allocator<wchar_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_trivially_copyable<wchar_t *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_trivially_copyable<std::allocator<char16_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_trivially_copyable<char16_t *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_trivially_copyable<std::allocator<char32_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_trivially_copyable<char32_t *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_trivially_copyable<unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_trivially_copyable<wchar_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_trivially_copyable<char16_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_trivially_copyable<char32_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_trivial<char>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_trivial<wchar_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_trivial<char16_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_trivial<char32_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_standard_layout<char>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_standard_layout<wchar_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_standard_layout<char16_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_standard_layout<char32_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_empty<std::allocator<char>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_empty<std::basic_string<char>::__rep>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_empty<std::allocator<wchar_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_empty<std::basic_string<wchar_t>::__rep>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_empty<std::allocator<char16_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_empty<std::basic_string<char16_t>::__rep>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_empty<std::allocator<char32_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_empty<std::basic_string<char32_t>::__rep>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_const<char>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_const<wchar_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_const<char16_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_const<char32_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__align_type<unsigned char>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__align_type<unsigned short>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__align_type<unsigned int>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__align_type<unsigned long>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__align_type<unsigned long long>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__align_type<double>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__align_type<long double>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__align_type<std::__struct_double>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__align_type<std::__struct_double4>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__align_type<int *>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__struct_double": {
+    "size": 8,
+    "align": 8,
+    "members": [
+      {
+        "name": "__lx",
+        "offset": 0,
+        "type": "_3397",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__struct_double4": {
+    "size": 32,
+    "align": 8,
+    "members": [
+      {
+        "name": "__lx",
+        "offset": 0,
+        "type": "_14008",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__libcpp_compute_min<unsigned long, 64, false>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_compute_min<long, 63, true>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "pointer_traits<char *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "pointer_traits<wchar_t *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "pointer_traits<char16_t *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "pointer_traits<char32_t *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "pointer_traits<const char16_t *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "pointer_traits<const char32_t *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "_IsFancyPointer<char *>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "_IsFancyPointer<wchar_t *>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "_IsFancyPointer<char16_t *>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "_IsFancyPointer<char32_t *>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "_IsFancyPointer<const char *>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "_IsFancyPointer<const wchar_t *>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "_IsFancyPointer<const char16_t *>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "_IsFancyPointer<const char32_t *>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__segmented_iterator_traits<const char16_t *>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__segmented_iterator_traits<const char32_t *>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__has_specialization<std::__segmented_iterator_traits<const char16_t *>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__has_specialization<std::__segmented_iterator_traits<const char32_t *>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__member_pointer_class_type<std::__identity>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__nat": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__is_reference_wrapper_impl<char16_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__is_reference_wrapper<char16_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_member_object_pointer<std::__identity>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_member_function_pointer<std::__identity>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__is_identity<std::__identity>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__is_identity<std::reference_wrapper<std::__identity>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__is_identity<std::reference_wrapper<const std::__identity>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__identity": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "input_iterator_tag": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "output_iterator_tag": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "forward_iterator_tag": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "bidirectional_iterator_tag": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "random_access_iterator_tag": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__iter_concept_concept_test": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__iter_concept_category_test": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__iter_concept_random_fallback": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "_OrImpl<true>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "_OrImpl<false>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__type_list<std::__align_type<unsigned char>, std::__align_type<unsigned short>, std::__align_type<unsigned int>, std::__align_type<unsigned long>, std::__align_type<unsigned long long>, std::__align_type<double>, std::__align_type<long double>, std::__align_type<std::__struct_double>, std::__align_type<std::__struct_double4>, std::__align_type<int *>>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "is_assignable<char &, const char &>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_assignable<char &, const char &&>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_assignable<char &, char &&>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_assignable<unsigned long &, const unsigned long &>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_assignable<unsigned long &, unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_assignable<wchar_t &, const wchar_t &>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_assignable<wchar_t &, const wchar_t &&>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_assignable<wchar_t &, wchar_t &&>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_assignable<char16_t &, const char16_t &>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_assignable<char16_t &, const char16_t &&>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_assignable<char16_t &, char16_t &&>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_assignable<char32_t &, const char32_t &>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_assignable<char32_t &, const char32_t &&>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_assignable<char32_t &, char32_t &&>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_copy_assignable<unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_move_assignable<std::__shared_weak_count *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_move_assignable<unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "enable_if<false, int>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "enable_if<false>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "enable_if<true, int>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "enable_if<true>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_nothrow_constructible<unsigned long, unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_nothrow_move_constructible<std::__shared_weak_count *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_nothrow_move_constructible<unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_nothrow_default_constructible<std::allocator<char>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_nothrow_default_constructible<std::allocator<wchar_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_nothrow_default_constructible<std::allocator<char16_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_nothrow_default_constructible<std::allocator<char32_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_nothrow_copy_assignable<unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_nothrow_move_assignable<std::__shared_weak_count *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_nothrow_move_assignable<unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_nothrow_move_assignable<std::allocator<char>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_nothrow_move_assignable<std::allocator<wchar_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_nothrow_move_assignable<std::allocator<char16_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_nothrow_move_assignable<std::allocator<char32_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_enum<std::__legacy_memory_order>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_enum<unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_class<char *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_class<wchar_t *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_class<char16_t *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_class<char32_t *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_class<const char *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_class<const wchar_t *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_class<const char16_t *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_class<const char32_t *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__copy_cv<const wchar_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__copy_cv<const char32_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "common_type<std::chrono::duration<long, std::ratio<3600>>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "common_type<std::chrono::duration<long, std::ratio<3600>>, std::chrono::duration<long, std::ratio<3600>>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "common_type<long, long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "common_type<std::chrono::duration<long double, std::ratio<3600>>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "common_type<std::chrono::duration<long double, std::ratio<3600>>, std::chrono::duration<long double, std::ratio<3600>>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "common_type<long double, long double>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "common_type<std::chrono::duration<long, std::ratio<60>>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "common_type<std::chrono::duration<long, std::ratio<60>>, std::chrono::duration<long, std::ratio<60>>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "common_type<std::chrono::duration<long double, std::ratio<60>>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "common_type<std::chrono::duration<long double, std::ratio<60>>, std::chrono::duration<long double, std::ratio<60>>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "common_type<std::chrono::duration<long long>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "common_type<std::chrono::duration<long long>, std::chrono::duration<long long>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "common_type<long long, long long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "common_type<std::chrono::duration<long double>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "common_type<std::chrono::duration<long double>, std::chrono::duration<long double>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "common_type<std::chrono::duration<long long, std::ratio<1, 1000>>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "common_type<std::chrono::duration<long long, std::ratio<1, 1000>>, std::chrono::duration<long long, std::ratio<1, 1000>>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "common_type<std::chrono::duration<long double, std::ratio<1, 1000>>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "common_type<std::chrono::duration<long double, std::ratio<1, 1000>>, std::chrono::duration<long double, std::ratio<1, 1000>>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "common_type<std::chrono::duration<long long, std::ratio<1, 1000000>>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "common_type<std::chrono::duration<long long, std::ratio<1, 1000000>>, std::chrono::duration<long long, std::ratio<1, 1000000>>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "common_type<std::chrono::duration<long double, std::ratio<1, 1000000>>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "common_type<std::chrono::duration<long double, std::ratio<1, 1000000>>, std::chrono::duration<long double, std::ratio<1, 1000000>>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "common_type<std::chrono::duration<long long, std::ratio<1, 1000000000>>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "common_type<std::chrono::duration<long long, std::ratio<1, 1000000000>>, std::chrono::duration<long long, std::ratio<1, 1000000000>>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "common_type<std::chrono::duration<long double, std::ratio<1, 1000000000>>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "common_type<std::chrono::duration<long double, std::ratio<1, 1000000000>>, std::chrono::duration<long double, std::ratio<1, 1000000000>>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "common_type<long long, long long, long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "common_type<std::chrono::duration<long long, std::ratio<1, 1000000000>>, std::chrono::duration<long long>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__empty": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__type_identity<long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__type_identity<std::chrono::duration<long, std::ratio<3600>>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__type_identity<long double>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__type_identity<std::chrono::duration<long double, std::ratio<3600>>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__type_identity<std::chrono::duration<long, std::ratio<60>>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__type_identity<std::chrono::duration<long double, std::ratio<60>>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__type_identity<long long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__type_identity<std::chrono::duration<long long>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__type_identity<std::chrono::duration<long double>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__type_identity<std::chrono::duration<long long, std::ratio<1, 1000>>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__type_identity<std::chrono::duration<long double, std::ratio<1, 1000>>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__type_identity<std::chrono::duration<long long, std::ratio<1, 1000000>>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__type_identity<std::chrono::duration<long double, std::ratio<1, 1000000>>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__type_identity<std::chrono::duration<long long, std::ratio<1, 1000000000>>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__type_identity<std::chrono::duration<long double, std::ratio<1, 1000000000>>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__type_identity<char>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__type_identity<wchar_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__type_identity<char16_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__type_identity<char32_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_array<char>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_array<wchar_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_array<char16_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_array<char32_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_void<char>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_void<wchar_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_void<char16_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_void<char32_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_void<const char16_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_void<const char32_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "_IfImpl<true>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "_IfImpl<false>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "conditional<false, std::pointer_traits<char *>::__nat, char>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "conditional<true, std::string, void>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "conditional<false, std::pointer_traits<wchar_t *>::__nat, wchar_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "conditional<true, std::wstring, void>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "conditional<false, std::pointer_traits<char16_t *>::__nat, char16_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "conditional<true, std::u16string, void>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "conditional<false, std::pointer_traits<char32_t *>::__nat, char32_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "conditional<true, std::u32string, void>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "conditional<true, std::pair<unsigned long, unsigned long>, void>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "conditional<true, std::pair<unsigned long, unsigned long>, std::__nat>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "conditional<true, std::pair<unsigned long, unsigned long>::_CheckArgs, void>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "conditional<false, std::pointer_traits<const char16_t *>::__nat, const char16_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "conditional<false, std::pointer_traits<const char32_t *>::__nat, const char32_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_constructible<char, const char &>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_constructible<char, const char &&>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_constructible<unsigned long, const unsigned long &>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_constructible<unsigned long, unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_constructible<wchar_t, const wchar_t &>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_constructible<wchar_t, const wchar_t &&>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_constructible<char16_t, const char16_t &>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_constructible<char16_t, const char16_t &&>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_constructible<char32_t, const char32_t &>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_constructible<char32_t, const char32_t &&>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_move_constructible<std::__shared_weak_count *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_move_constructible<unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_same<char, char>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_same<char, bool>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_same<wchar_t, wchar_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_same<char16_t, char16_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_same<char32_t, char32_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_same<std::allocator<char>, std::allocator<char>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_same<std::allocator<wchar_t>, std::allocator<wchar_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_same<std::allocator<char16_t>, std::allocator<char16_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_same<std::allocator<char32_t>, std::allocator<char32_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_same<wchar_t, bool>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_same<char16_t, bool>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_same<char32_t, bool>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_reference<std::basic_string<char>::__rep>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_reference<std::allocator<char>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_reference<std::basic_string<wchar_t>::__rep>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_reference<std::allocator<wchar_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_reference<std::basic_string<char16_t>::__rep>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_reference<std::allocator<char16_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_reference<std::basic_string<char32_t>::__rep>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_reference<std::allocator<char32_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_function<char>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_function<wchar_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_function<char16_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_function<char32_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_function<const char>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_function<const wchar_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_function<const char16_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_function<const char32_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_convertible<const long &, long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_convertible<const long double &, long double>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_convertible<const long long &, long long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_convertible<const std::chrono::duration<long long, std::ratio<1, 1000000000>> &, long long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_convertible<const std::chrono::duration<long long> &, long long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_convertible<const std::string &, std::string_view>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_convertible<const std::string &, const char *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_convertible<const std::wstring &, std::wstring_view>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_convertible<const std::wstring &, const wchar_t *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_convertible<const char *const &, std::string_view>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_convertible<const char *const &, const char *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_convertible<const wchar_t *const &, std::wstring_view>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_convertible<const wchar_t *const &, const wchar_t *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_convertible<const char16_t *const &, std::u16string_view>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_convertible<const char16_t *const &, const char16_t *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_convertible<const char32_t *const &, std::u32string_view>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_convertible<const char32_t *const &, const char32_t *>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_convertible<const unsigned long &, unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_convertible<unsigned long, unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_unsigned_integer<unsigned char>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_unsigned_integer<unsigned short>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_unsigned_integer<unsigned int>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_unsigned_integer<unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_unsigned_integer<unsigned long long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_unsigned_integer<unsigned __int128>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_signed_integer<signed char>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_signed_integer<short>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_signed_integer<int>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_signed_integer<long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_signed_integer<long long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_signed_integer<__int128>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_signed<char>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_signed<wchar_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_signed<char16_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_signed<const char16_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_signed<char32_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_signed<const char32_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_arithmetic<unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_arithmetic<float>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_arithmetic<double>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_arithmetic<long double>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_arithmetic<long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_floating_point<float>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_floating_point<double>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_floating_point<long double>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_floating_point<unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_floating_point<long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_floating_point<long long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_floating_point<std::chrono::duration<long long, std::ratio<1, 1000000000>>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_floating_point<std::chrono::duration<long long>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_floating_point<unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_floating_point<long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_floating_point<long double>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_floating_point<long long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_floating_point<std::chrono::duration<long long, std::ratio<1, 1000000000>>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_floating_point<std::chrono::duration<long long>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_floating_point<float>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_floating_point<double>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__equal_to": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__less<>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__less<char>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__less<wchar_t>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__less<signed char>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__less<unsigned char>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__less<short>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__less<unsigned short>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__less<int>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__less<unsigned int>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__less<long>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__less<unsigned long>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__less<long long>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__less<unsigned long long>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__less<float>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__less<double>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__less<long double>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__libcpp_is_integral<bool>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_integral<char>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_integral<signed char>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_integral<unsigned char>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_integral<wchar_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_integral<char16_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_integral<char32_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_integral<short>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_integral<unsigned short>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_integral<int>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_integral<unsigned int>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_integral<long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_integral<unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_integral<long long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_integral<unsigned long long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_integral<__int128>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_is_integral<unsigned __int128>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_integral<unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_integral<char>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_integral<const char>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_integral<wchar_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_integral<char16_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_integral<const char16_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_integral<char32_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_integral<const char32_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_integral<float>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_integral<double>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_integral<long double>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_integral<long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "is_integral<const wchar_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "integral_constant<bool, true>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "integral_constant<bool, false>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "integral_constant<unsigned long, 0>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "integral_constant<unsigned long, 2>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "integral_constant<int, 0>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "integral_constant<int, 1>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "integral_constant<int, 2>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "integral_constant<unsigned long, 9223372036854775808>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__cxa_exception": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "Configuration": {
+    "size": 48,
+    "align": 8,
+    "members": [
+      {
+        "name": "system_name",
+        "offset": 0,
+        "type": "_11722",
+        "size": 0,
+        "align": 0,
+        "doc": "System parameters."
+      },
+      {
+        "name": "max_connections",
+        "offset": 24,
+        "type": "_3289",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "timeout_seconds",
+        "offset": 32,
+        "type": "_3403",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "default_status",
+        "offset": 40,
+        "type": "_4212",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__long": {
+    "size": 24,
+    "align": 8,
+    "members": [
+      {
+        "name": "__data_",
+        "offset": 0,
+        "type": "_5076",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__size_",
+        "offset": 8,
+        "type": "_5072",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__cap_",
+        "offset": 16,
+        "type": "_5072",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__is_long_",
+        "offset": 23,
+        "type": "_5072",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__short": {
+    "size": 24,
+    "align": 4,
+    "members": [
+      {
+        "name": "__data_",
+        "offset": 0,
+        "type": "_15045",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__padding_",
+        "offset": 20,
+        "type": "_1746",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__size_",
+        "offset": 23,
+        "type": "_3286",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__is_long_",
+        "offset": 23,
+        "type": "_3286",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__annotate_new_size": {
+    "size": 8,
+    "align": 8,
+    "members": [
+      {
+        "name": "__str_",
+        "offset": 0,
+        "type": "_11975",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__reread_from_input_tag": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__reread_from_output_tag": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__read_from_tmp_value_tag": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__find_unambiguous_index_sfinae_impl<18446744073709551615>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__find_unambiguous_index_sfinae_impl<18446744073709551614>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__valueless_t": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__no_narrowing_check": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__narrowing_check": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__duration_cast<std::chrono::duration<long long, std::ratio<1, 1000000000>>, std::chrono::duration<long long>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__duration_cast<std::chrono::duration<long long>, std::chrono::duration<long long, std::ratio<1, 1000000000>>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "treat_as_floating_point<long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "treat_as_floating_point<long double>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "treat_as_floating_point<long long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "treat_as_floating_point<std::chrono::duration<long long, std::ratio<1, 1000000000>>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "treat_as_floating_point<std::chrono::duration<long long>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "duration_values<long long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__duration_eq<std::chrono::duration<long long, std::ratio<1, 1000000000>>, std::chrono::duration<long long, std::ratio<1, 1000000000>>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__duration_lt<std::chrono::duration<long long, std::ratio<1, 1000000000>>, std::chrono::duration<long long, std::ratio<1, 1000000000>>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__secret_tag": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__assume_valid": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__string_impl_base": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__unique_impl": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__non_unique_impl": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__non_unique_arm_rtti_bit_impl": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "rebind<char>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "rebind<wchar_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "rebind<char16_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "rebind<char32_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "_CheckArgs": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "_malloc_zone_t": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__union": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__base": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__variant": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__no_overflow<std::ratio<1, 1000000000>, std::ratio<1, 1000000000>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__no_overflow<std::ratio<1>, std::ratio<1, 1000000000>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__mul<1, 1, false>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__mul<1, 1000000000, false>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "pthread_override_s": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "ComplexSystem": {
+    "size": 144,
+    "align": 8,
+    "members": [
+      {
+        "name": "config_",
+        "offset": 8,
+        "type": "_4213",
+        "size": 0,
+        "align": 0,
+        "doc": "System state."
+      },
+      {
+        "name": "handler_",
+        "offset": 56,
+        "type": "_11710",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "current_status_",
+        "offset": 64,
+        "type": "_4212",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "subsystems_",
+        "offset": 72,
+        "type": "_11711",
+        "size": 0,
+        "align": 0,
+        "doc": "Array of subsystem pointers."
+      },
+      {
+        "name": "subsystem_count_",
+        "offset": 136,
+        "type": "_3289",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "Drawable": {
+    "size": 16,
+    "align": 8,
+    "members": [
+      {
+        "name": "render_priority_",
+        "offset": 8,
+        "type": "_3289",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "Updateable": {
+    "size": 16,
+    "align": 8,
+    "members": [
+      {
+        "name": "last_update_time_",
+        "offset": 8,
+        "type": "_3403",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "GameObject": {
+    "size": 72,
+    "align": 8,
+    "members": [
+      {
+        "name": "object_name_",
+        "offset": 32,
+        "type": "_11722",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "position_x_",
+        "offset": 56,
+        "type": "_3401",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "position_y_",
+        "offset": 60,
+        "type": "_3401",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "is_visible_",
+        "offset": 64,
+        "type": "_3406",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "basic_string<char>": {
+    "size": 24,
+    "align": 8,
+    "members": [
+      {
+        "name": "__rep_",
+        "offset": 0,
+        "type": "_4427",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__padding1_934_",
+        "offset": 0,
+        "type": "_11815",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__alloc_",
+        "offset": 0,
+        "type": "_4402",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__padding2_934_",
+        "offset": 0,
+        "type": "_11816",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "basic_string<wchar_t>": {
+    "size": 24,
+    "align": 8,
+    "members": [
+      {
+        "name": "__rep_",
+        "offset": 0,
+        "type": "_4649",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__padding1_934_",
+        "offset": 0,
+        "type": "_11862",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__alloc_",
+        "offset": 0,
+        "type": "_4624",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__padding2_934_",
+        "offset": 0,
+        "type": "_11863",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "basic_string<char16_t>": {
+    "size": 24,
+    "align": 8,
+    "members": [
+      {
+        "name": "__rep_",
+        "offset": 0,
+        "type": "_4871",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__padding1_934_",
+        "offset": 0,
+        "type": "_11909",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__alloc_",
+        "offset": 0,
+        "type": "_4846",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__padding2_934_",
+        "offset": 0,
+        "type": "_11910",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "basic_string<char32_t>": {
+    "size": 24,
+    "align": 8,
+    "members": [
+      {
+        "name": "__rep_",
+        "offset": 0,
+        "type": "_5095",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__padding1_934_",
+        "offset": 0,
+        "type": "_11962",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__alloc_",
+        "offset": 0,
+        "type": "_5070",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__padding2_934_",
+        "offset": 0,
+        "type": "_11963",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "basic_string<char, std::char_traits<char>, std::pmr::polymorphic_allocator<char>>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "basic_string<wchar_t, std::char_traits<wchar_t>, std::pmr::polymorphic_allocator<wchar_t>>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "basic_string<char16_t, std::char_traits<char16_t>, std::pmr::polymorphic_allocator<char16_t>>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "basic_string<char32_t, std::char_traits<char32_t>, std::pmr::polymorphic_allocator<char32_t>>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__libcpp_debug_randomizer": {
+    "size": 16,
+    "align": 8,
+    "members": [
+      {
+        "name": "__state_",
+        "offset": 0,
+        "type": "_186",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__inc_",
+        "offset": 8,
+        "type": "_186",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "uniform_int_distribution<long>": {
+    "size": 16,
+    "align": 8,
+    "members": [
+      {
+        "name": "__p_",
+        "offset": 0,
+        "type": "_5318",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "bad_weak_ptr": {
+    "size": 8,
+    "align": 8,
+    "members": []
+  },
+  "__sp_mut": {
+    "size": 8,
+    "align": 8,
+    "members": [
+      {
+        "name": "__lx_",
+        "offset": 0,
+        "type": "_3399",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__shared_count": {
+    "size": 16,
+    "align": 8,
+    "members": [
+      {
+        "name": "__shared_owners_",
+        "offset": 8,
+        "type": "_3293",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__shared_weak_count": {
+    "size": 24,
+    "align": 8,
+    "members": [
+      {
+        "name": "__shared_weak_owners_",
+        "offset": 16,
+        "type": "_3293",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "reference_wrapper<std::__identity>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "reference_wrapper<const std::__identity>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "bad_variant_access": {
+    "size": 8,
+    "align": 8,
+    "members": []
+  },
+  "__ll_mul<0, 0>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__ll_mul<1, 1>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__ll_mul<1, 1000000000>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "ratio<1, 1000000000000000000>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "ratio<1, 1000000000000000>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "ratio<1, 1000000000000>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "ratio<1, 1000000000>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "ratio<1, 1000000>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "ratio<1, 1000>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "ratio<1, 100>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "ratio<1, 10>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "ratio<10>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "ratio<100>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "ratio<1000>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "ratio<1000000>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "ratio<1000000000>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "ratio<1000000000000>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "ratio<1000000000000000>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "ratio<1000000000000000000>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "ratio<1>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "ratio<60>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "ratio<3600>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "bad_optional_access": {
+    "size": 8,
+    "align": 8,
+    "members": []
+  },
+  "basic_string_view<char>": {
+    "size": 16,
+    "align": 8,
+    "members": [
+      {
+        "name": "__data_",
+        "offset": 0,
+        "type": "_12861",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__size_",
+        "offset": 8,
+        "type": "_3090",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "basic_string_view<char16_t>": {
+    "size": 16,
+    "align": 8,
+    "members": [
+      {
+        "name": "__data_",
+        "offset": 0,
+        "type": "_12869",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__size_",
+        "offset": 8,
+        "type": "_3090",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "basic_string_view<char32_t>": {
+    "size": 16,
+    "align": 8,
+    "members": [
+      {
+        "name": "__data_",
+        "offset": 0,
+        "type": "_12877",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__size_",
+        "offset": 8,
+        "type": "_3090",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "basic_string_view<wchar_t>": {
+    "size": 16,
+    "align": 8,
+    "members": [
+      {
+        "name": "__data_",
+        "offset": 0,
+        "type": "_12885",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__size_",
+        "offset": 8,
+        "type": "_3090",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "logic_error": {
+    "size": 16,
+    "align": 8,
+    "members": [
+      {
+        "name": "__imp_",
+        "offset": 8,
+        "type": "_12898",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "runtime_error": {
+    "size": 16,
+    "align": 8,
+    "members": [
+      {
+        "name": "__imp_",
+        "offset": 8,
+        "type": "_12898",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "domain_error": {
+    "size": 16,
+    "align": 8,
+    "members": []
+  },
+  "invalid_argument": {
+    "size": 16,
+    "align": 8,
+    "members": []
+  },
+  "length_error": {
+    "size": 16,
+    "align": 8,
+    "members": []
+  },
+  "out_of_range": {
+    "size": 16,
+    "align": 8,
+    "members": []
+  },
+  "range_error": {
+    "size": 16,
+    "align": 8,
+    "members": []
+  },
+  "overflow_error": {
+    "size": 16,
+    "align": 8,
+    "members": []
+  },
+  "underflow_error": {
+    "size": 16,
+    "align": 8,
+    "members": []
+  },
+  "__libcpp_refstring": {
+    "size": 8,
+    "align": 8,
+    "members": [
+      {
+        "name": "__imp_",
+        "offset": 0,
+        "type": "_3402",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__scope_guard<std::basic_string<char16_t>::__annotate_new_size>": {
+    "size": 8,
+    "align": 8,
+    "members": [
+      {
+        "name": "__func_",
+        "offset": 0,
+        "type": "_4876",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__scope_guard<std::basic_string<char32_t>::__annotate_new_size>": {
+    "size": 8,
+    "align": 8,
+    "members": [
+      {
+        "name": "__func_",
+        "offset": 0,
+        "type": "_5100",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "fpos<__mbstate_t>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "basic_streambuf<char>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "basic_streambuf<wchar_t>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "basic_stringbuf<char>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "basic_stringbuf<wchar_t>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "basic_istringstream<char>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "basic_istringstream<wchar_t>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "basic_ostringstream<char>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "basic_ostringstream<wchar_t>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "basic_stringstream<char>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "basic_stringstream<wchar_t>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "basic_ostream<char>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "basic_ostream<wchar_t>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "basic_istream<char>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "basic_istream<wchar_t>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "basic_iostream<char>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "basic_iostream<wchar_t>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "basic_filebuf<char>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "basic_filebuf<wchar_t>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "basic_ifstream<char>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "basic_ifstream<wchar_t>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "basic_ofstream<char>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "basic_ofstream<wchar_t>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "basic_fstream<char>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "basic_fstream<wchar_t>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "nested_exception": {
+    "size": 16,
+    "align": 8,
+    "members": [
+      {
+        "name": "__ptr_",
+        "offset": 8,
+        "type": "_2294",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "exception_ptr": {
+    "size": 8,
+    "align": 8,
+    "members": [
+      {
+        "name": "__ptr_",
+        "offset": 0,
+        "type": "_3399",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "type_info": {
+    "size": 16,
+    "align": 8,
+    "members": [
+      {
+        "name": "__type_name",
+        "offset": 8,
+        "type": "_13047",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "bad_cast": {
+    "size": 8,
+    "align": 8,
+    "members": []
+  },
+  "bad_typeid": {
+    "size": 8,
+    "align": 8,
+    "members": []
+  },
+  "tuple<>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__promote<float, float>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__promote<double, double>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__promote<long double, long double>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__compressed_pair_padding<std::basic_string<char>::__rep>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__compressed_pair_padding<std::allocator<char>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__compressed_pair_padding<std::basic_string<wchar_t>::__rep>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__compressed_pair_padding<std::allocator<wchar_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__compressed_pair_padding<std::basic_string<char16_t>::__rep>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__compressed_pair_padding<std::allocator<char16_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__compressed_pair_padding<std::basic_string<char32_t>::__rep>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__compressed_pair_padding<std::allocator<char32_t>>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "allocator<char>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "allocator<wchar_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "allocator<char16_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "allocator<char32_t>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "allocator<void>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "allocator<std::__shared_ptr_dummy_rebind_allocator_type>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "bad_alloc": {
+    "size": 8,
+    "align": 8,
+    "members": []
+  },
+  "bad_array_new_length": {
+    "size": 8,
+    "align": 8,
+    "members": []
+  },
+  "exception": {
+    "size": 8,
+    "align": 8,
+    "members": []
+  },
+  "bad_exception": {
+    "size": 8,
+    "align": 8,
+    "members": []
+  },
+  "__wrap_iter<char *>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__wrap_iter<const char *>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__wrap_iter<wchar_t *>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__wrap_iter<const wchar_t *>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__wrap_iter<char16_t *>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__wrap_iter<const char16_t *>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__wrap_iter<char32_t *>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__wrap_iter<const char32_t *>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "reverse_iterator<const char *>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "reverse_iterator<const wchar_t *>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "reverse_iterator<const char16_t *>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "reverse_iterator<const char32_t *>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "reverse_iterator<std::__wrap_iter<char *>>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "reverse_iterator<std::__wrap_iter<const char *>>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "reverse_iterator<std::__wrap_iter<wchar_t *>>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "reverse_iterator<std::__wrap_iter<const wchar_t *>>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "reverse_iterator<std::__wrap_iter<char16_t *>>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "reverse_iterator<std::__wrap_iter<const char16_t *>>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "reverse_iterator<std::__wrap_iter<char32_t *>>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "reverse_iterator<std::__wrap_iter<const char32_t *>>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "ios_base": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "basic_ios<char>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "basic_ios<wchar_t>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "__libcpp_numeric_limits<bool, true>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_numeric_limits<float, true>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_numeric_limits<double, true>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_numeric_limits<long double, true>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_numeric_limits<unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "__libcpp_numeric_limits<long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "numeric_limits<unsigned long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "numeric_limits<float>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "numeric_limits<double>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "numeric_limits<long double>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "numeric_limits<long>": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "initializer_list<std::__variant_detail::_Trait>": {
+    "size": 16,
+    "align": 8,
+    "members": [
+      {
+        "name": "__begin_",
+        "offset": 0,
+        "type": "_14121",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__size_",
+        "offset": 8,
+        "type": "_3090",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "initializer_list<char>": {
+    "size": 16,
+    "align": 8,
+    "members": [
+      {
+        "name": "__begin_",
+        "offset": 0,
+        "type": "_14126",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__size_",
+        "offset": 8,
+        "type": "_3090",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "initializer_list<wchar_t>": {
+    "size": 16,
+    "align": 8,
+    "members": [
+      {
+        "name": "__begin_",
+        "offset": 0,
+        "type": "_14131",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__size_",
+        "offset": 8,
+        "type": "_3090",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "initializer_list<char16_t>": {
+    "size": 16,
+    "align": 8,
+    "members": [
+      {
+        "name": "__begin_",
+        "offset": 0,
+        "type": "_14136",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__size_",
+        "offset": 8,
+        "type": "_3090",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "initializer_list<char32_t>": {
+    "size": 16,
+    "align": 8,
+    "members": [
+      {
+        "name": "__begin_",
+        "offset": 0,
+        "type": "_14141",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__size_",
+        "offset": 8,
+        "type": "_3090",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "EventHandler": {
+    "size": 16,
+    "align": 8,
+    "members": [
+      {
+        "name": "parent_system_",
+        "offset": 0,
+        "type": "_11713",
+        "size": 0,
+        "align": 0,
+        "doc": "Handler state."
+      },
+      {
+        "name": "is_enabled_",
+        "offset": 8,
+        "type": "_3406",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "param_type": {
+    "size": 16,
+    "align": 8,
+    "members": [
+      {
+        "name": "__a_",
+        "offset": 0,
+        "type": "_5317",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__b_",
+        "offset": 8,
+        "type": "_5317",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "duration<long long, std::ratio<1, 1000000000>>": {
+    "size": 8,
+    "align": 8,
+    "members": [
+      {
+        "name": "__rep_",
+        "offset": 0,
+        "type": "_12317",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "duration<long long, std::ratio<1, 1000000>>": {
+    "size": 8,
+    "align": 8,
+    "members": [
+      {
+        "name": "__rep_",
+        "offset": 0,
+        "type": "_12348",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "duration<long long, std::ratio<1, 1000>>": {
+    "size": 8,
+    "align": 8,
+    "members": [
+      {
+        "name": "__rep_",
+        "offset": 0,
+        "type": "_12377",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "duration<long long>": {
+    "size": 8,
+    "align": 8,
+    "members": [
+      {
+        "name": "__rep_",
+        "offset": 0,
+        "type": "_12406",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "duration<long, std::ratio<60>>": {
+    "size": 8,
+    "align": 8,
+    "members": [
+      {
+        "name": "__rep_",
+        "offset": 0,
+        "type": "_12435",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "duration<long, std::ratio<3600>>": {
+    "size": 8,
+    "align": 8,
+    "members": [
+      {
+        "name": "__rep_",
+        "offset": 0,
+        "type": "_12464",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "duration<long double, std::ratio<3600>>": {
+    "size": 8,
+    "align": 8,
+    "members": [
+      {
+        "name": "__rep_",
+        "offset": 0,
+        "type": "_12493",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "duration<long double, std::ratio<60>>": {
+    "size": 8,
+    "align": 8,
+    "members": [
+      {
+        "name": "__rep_",
+        "offset": 0,
+        "type": "_12522",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "duration<long double>": {
+    "size": 8,
+    "align": 8,
+    "members": [
+      {
+        "name": "__rep_",
+        "offset": 0,
+        "type": "_12551",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "duration<long double, std::ratio<1, 1000>>": {
+    "size": 8,
+    "align": 8,
+    "members": [
+      {
+        "name": "__rep_",
+        "offset": 0,
+        "type": "_12580",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "duration<long double, std::ratio<1, 1000000>>": {
+    "size": 8,
+    "align": 8,
+    "members": [
+      {
+        "name": "__rep_",
+        "offset": 0,
+        "type": "_12609",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "duration<long double, std::ratio<1, 1000000000>>": {
+    "size": 8,
+    "align": 8,
+    "members": [
+      {
+        "name": "__rep_",
+        "offset": 0,
+        "type": "_12638",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "system_clock": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "steady_clock": {
+    "size": 1,
+    "align": 1,
+    "members": []
+  },
+  "time_point<std::chrono::steady_clock, std::chrono::duration<long long, std::ratio<1, 1000000000>>>": {
+    "size": 8,
+    "align": 8,
+    "members": [
+      {
+        "name": "__d_",
+        "offset": 0,
+        "type": "_12695",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "time_point<std::chrono::system_clock>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "polymorphic_allocator<char>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "polymorphic_allocator<wchar_t>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "polymorphic_allocator<char16_t>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "polymorphic_allocator<char32_t>": {
+    "size": 0,
+    "align": 0,
+    "members": []
+  },
+  "memory_resource": {
+    "size": 8,
+    "align": 8,
+    "members": []
+  }
+}

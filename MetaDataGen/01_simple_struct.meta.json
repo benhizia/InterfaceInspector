@@ -1,0 +1,40 @@
+{
+  "SimpleStruct": {
+    "size": 24,
+    "align": 8,
+    "members": [
+      {
+        "name": "value",
+        "offset": 0,
+        "type": "_141",
+        "size": 0,
+        "align": 0,
+        "doc": "Integer value."
+      },
+      {
+        "name": "price",
+        "offset": 8,
+        "type": "_142",
+        "size": 0,
+        "align": 0,
+        "doc": "Floating point number price of the product."
+      },
+      {
+        "name": "is_active",
+        "offset": 16,
+        "type": "_143",
+        "size": 0,
+        "align": 0,
+        "doc": "Boolean flag is_active parameter of activation."
+      },
+      {
+        "name": "category",
+        "offset": 17,
+        "type": "_140",
+        "size": 0,
+        "align": 0,
+        "doc": "Character data."
+      }
+    ]
+  }
+}

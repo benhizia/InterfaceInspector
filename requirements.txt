@@ -1,0 +1,15 @@
+# XML processing library
+lxml>=4.6.0
+
+# Template engine for generating C++ files
+jinja2>=3.0.0
+
+# Note: This project also requires external tools to be installed:
+# - doxygen: for generating XML documentation from C++ headers
+# - castxml: for parsing C++ code and extracting type information
+#
+# Install on macOS with:
+# brew install doxygen castxml
+#
+# Install on Ubuntu/Debian with:
+# sudo apt-get install doxygen castxml

@@ -1,0 +1,162 @@
+{
+  "summary": {
+    "total_files": 15,
+    "successful": 15,
+    "failed": 0,
+    "success_rate": 100.0,
+    "total_time": 10.079102754592896,
+    "average_time": 0.6719401836395263
+  },
+  "results": {
+    "01_simple_struct.hpp": {
+      "success": true,
+      "json_created": true,
+      "hpp_created": true,
+      "json_valid": true,
+      "json_size": 903,
+      "stdout": "\n Activating header_inspect environment...\n\u2705 Python dependencies OK\n\n External tools OK (doxygen, castxml)\nRunning header_inspector.py on test/01_simple_struct.hpp...\n\ud83d\udd0d Pre-processing comments...\n\ud83d\udcd7 Running Doxygen...\n\u2699\ufe0f Running CastXML...\n\ud83d\udcca Parsing & merging...\n\ud83e\udde9 Generating artefacts...\n\u2705 Done \u2192 MetaDataGen/01_simple_struct.meta.*\n",
+      "stderr": "",
+      "processing_time": 0.8748347759246826
+    },
+    "02_class_with_methods.hpp": {
+      "success": true,
+      "json_created": true,
+      "hpp_created": true,
+      "json_valid": true,
+      "json_size": 655,
+      "stdout": "\n Activating header_inspect environment...\n\u2705 Python dependencies OK\n\n External tools OK (doxygen, castxml)\nRunning header_inspector.py on test/02_class_with_methods.hpp...\n\ud83d\udd0d Pre-processing comments...\n\ud83d\udcd7 Running Doxygen...\n\u2699\ufe0f Running CastXML...\n\ud83d\udcca Parsing & merging...\n\ud83e\udde9 Generating artefacts...\n\u2705 Done \u2192 MetaDataGen/02_class_with_methods.meta.*\n",
+      "stderr": "",
+      "processing_time": 0.33722519874572754
+    },
+    "03_inheritance.hpp": {
+      "success": true,
+      "json_created": true,
+      "hpp_created": true,
+      "json_valid": true,
+      "json_size": 937,
+      "stdout": "\n Activating header_inspect environment...\n\u2705 Python dependencies OK\n\n External tools OK (doxygen, castxml)\nRunning header_inspector.py on test/03_inheritance.hpp...\n\ud83d\udd0d Pre-processing comments...\n\ud83d\udcd7 Running Doxygen...\n\u2699\ufe0f Running CastXML...\n\ud83d\udcca Parsing & merging...\n\ud83e\udde9 Generating artefacts...\n\u2705 Done \u2192 MetaDataGen/03_inheritance.meta.*\n",
+      "stderr": "",
+      "processing_time": 0.3496239185333252
+    },
+    "04_templates.hpp": {
+      "success": true,
+      "json_created": true,
+      "hpp_created": true,
+      "json_valid": true,
+      "json_size": 170167,
+      "stdout": "\n Activating header_inspect environment...\n\u2705 Python dependencies OK\n\n External tools OK (doxygen, castxml)\nRunning header_inspector.py on test/04_templates.hpp...\n\ud83d\udd0d Pre-processing comments...\n\ud83d\udcd7 Running Doxygen...\n\u2699\ufe0f Running CastXML...\n\ud83d\udcca Parsing & merging...\n\ud83e\udde9 Generating artefacts...\n\u2705 Done \u2192 MetaDataGen/04_templates.meta.*\n",
+      "stderr": "",
+      "processing_time": 1.2745540142059326
+    },
+    "05_packed_alignment.hpp": {
+      "success": true,
+      "json_created": true,
+      "hpp_created": true,
+      "json_valid": true,
+      "json_size": 4735,
+      "stdout": "\n Activating header_inspect environment...\n\u2705 Python dependencies OK\n\n External tools OK (doxygen, castxml)\nRunning header_inspector.py on test/05_packed_alignment.hpp...\n\ud83d\udd0d Pre-processing comments...\n\ud83d\udcd7 Running Doxygen...\n\u2699\ufe0f Running CastXML...\n\ud83d\udcca Parsing & merging...\n\ud83e\udde9 Generating artefacts...\n\u2705 Done \u2192 MetaDataGen/05_packed_alignment.meta.*\n",
+      "stderr": "",
+      "processing_time": 0.32962894439697266
+    },
+    "06_nested_complex.hpp": {
+      "success": true,
+      "json_created": true,
+      "hpp_created": true,
+      "json_valid": true,
+      "json_size": 125029,
+      "stdout": "\n Activating header_inspect environment...\n\u2705 Python dependencies OK\n\n External tools OK (doxygen, castxml)\nRunning header_inspector.py on test/06_nested_complex.hpp...\n\ud83d\udd0d Pre-processing comments...\n\ud83d\udcd7 Running Doxygen...\n\u2699\ufe0f Running CastXML...\n\ud83d\udcca Parsing & merging...\n\ud83e\udde9 Generating artefacts...\n\u2705 Done \u2192 MetaDataGen/06_nested_complex.meta.*\n",
+      "stderr": "",
+      "processing_time": 0.8346641063690186
+    },
+    "07_static_friends.hpp": {
+      "success": true,
+      "json_created": true,
+      "hpp_created": true,
+      "json_valid": true,
+      "json_size": 167841,
+      "stdout": "\n Activating header_inspect environment...\n\u2705 Python dependencies OK\n\n External tools OK (doxygen, castxml)\nRunning header_inspector.py on test/07_static_friends.hpp...\n\ud83d\udd0d Pre-processing comments...\n\ud83d\udcd7 Running Doxygen...\n\u2699\ufe0f Running CastXML...\n\ud83d\udcca Parsing & merging...\n\ud83e\udde9 Generating artefacts...\n\u2705 Done \u2192 MetaDataGen/07_static_friends.meta.*\n",
+      "stderr": "",
+      "processing_time": 1.0094878673553467
+    },
+    "08_operators_raii.hpp": {
+      "success": true,
+      "json_created": true,
+      "hpp_created": true,
+      "json_valid": true,
+      "json_size": 129874,
+      "stdout": "\n Activating header_inspect environment...\n\u2705 Python dependencies OK\n\n External tools OK (doxygen, castxml)\nRunning header_inspector.py on test/08_operators_raii.hpp...\n\ud83d\udd0d Pre-processing comments...\n\ud83d\udcd7 Running Doxygen...\n\u2699\ufe0f Running CastXML...\n\ud83d\udcca Parsing & merging...\n\ud83e\udde9 Generating artefacts...\n\u2705 Done \u2192 MetaDataGen/08_operators_raii.meta.*\n",
+      "stderr": "",
+      "processing_time": 0.796832799911499
+    },
+    "09_interfaces_patterns.hpp": {
+      "success": true,
+      "json_created": true,
+      "hpp_created": true,
+      "json_valid": true,
+      "json_size": 223366,
+      "stdout": "\n Activating header_inspect environment...\n\u2705 Python dependencies OK\n\n External tools OK (doxygen, castxml)\nRunning header_inspector.py on test/09_interfaces_patterns.hpp...\n\ud83d\udd0d Pre-processing comments...\n\ud83d\udcd7 Running Doxygen...\n\u2699\ufe0f Running CastXML...\n\ud83d\udcca Parsing & merging...\n\ud83e\udde9 Generating artefacts...\n\u2705 Done \u2192 MetaDataGen/09_interfaces_patterns.meta.*\n",
+      "stderr": "",
+      "processing_time": 1.1141798496246338
+    },
+    "10_modern_cpp.hpp": {
+      "success": true,
+      "json_created": true,
+      "hpp_created": true,
+      "json_valid": true,
+      "json_size": 325260,
+      "stdout": "\n Activating header_inspect environment...\n\u2705 Python dependencies OK\n\n External tools OK (doxygen, castxml)\nRunning header_inspector.py on test/10_modern_cpp.hpp...\n\ud83d\udd0d Pre-processing comments...\n\ud83d\udcd7 Running Doxygen...\n\u2699\ufe0f Running CastXML...\n\ud83d\udcca Parsing & merging...\n\ud83e\udde9 Generating artefacts...\n\u2705 Done \u2192 MetaDataGen/10_modern_cpp.meta.*\n",
+      "stderr": "",
+      "processing_time": 1.5395841598510742
+    },
+    "test_inline_comments.hpp": {
+      "success": true,
+      "json_created": true,
+      "hpp_created": true,
+      "json_valid": true,
+      "json_size": 1111,
+      "stdout": "\n Activating header_inspect environment...\n\u2705 Python dependencies OK\n\n External tools OK (doxygen, castxml)\nRunning header_inspector.py on test/test_inline_comments.hpp...\n\ud83d\udd0d Pre-processing comments...\n\ud83d\udcd7 Running Doxygen...\n\u2699\ufe0f Running CastXML...\n\ud83d\udcca Parsing & merging...\n\ud83e\udde9 Generating artefacts...\n\u2705 Done \u2192 MetaDataGen/test_inline_comments.meta.*\n",
+      "stderr": "",
+      "processing_time": 0.3148949146270752
+    },
+    "test_inline_comments_simple.hpp": {
+      "success": true,
+      "json_created": true,
+      "hpp_created": true,
+      "json_valid": true,
+      "json_size": 657,
+      "stdout": "\n Activating header_inspect environment...\n\u2705 Python dependencies OK\n\n External tools OK (doxygen, castxml)\nRunning header_inspector.py on test/test_inline_comments_simple.hpp...\n\ud83d\udd0d Pre-processing comments...\n\ud83d\udcd7 Running Doxygen...\n\u2699\ufe0f Running CastXML...\n\ud83d\udcca Parsing & merging...\n\ud83e\udde9 Generating artefacts...\n\u2705 Done \u2192 MetaDataGen/test_inline_comments_simple.meta.*\n",
+      "stderr": "",
+      "processing_time": 0.31099891662597656
+    },
+    "test_mixed_comments.hpp": {
+      "success": true,
+      "json_created": true,
+      "hpp_created": true,
+      "json_valid": true,
+      "json_size": 1060,
+      "stdout": "\n Activating header_inspect environment...\n\u2705 Python dependencies OK\n\n External tools OK (doxygen, castxml)\nRunning header_inspector.py on test/test_mixed_comments.hpp...\n\ud83d\udd0d Pre-processing comments...\n\ud83d\udcd7 Running Doxygen...\n\u2699\ufe0f Running CastXML...\n\ud83d\udcca Parsing & merging...\n\ud83e\udde9 Generating artefacts...\n\u2705 Done \u2192 MetaDataGen/test_mixed_comments.meta.*\n",
+      "stderr": "",
+      "processing_time": 0.36695122718811035
+    },
+    "test_multiline_inline.hpp": {
+      "success": true,
+      "json_created": true,
+      "hpp_created": true,
+      "json_valid": true,
+      "json_size": 862,
+      "stdout": "\n Activating header_inspect environment...\n\u2705 Python dependencies OK\n\n External tools OK (doxygen, castxml)\nRunning header_inspector.py on test/test_multiline_inline.hpp...\n\ud83d\udd0d Pre-processing comments...\n\ud83d\udcd7 Running Doxygen...\n\u2699\ufe0f Running CastXML...\n\ud83d\udcca Parsing & merging...\n\ud83e\udde9 Generating artefacts...\n\u2705 Done \u2192 MetaDataGen/test_multiline_inline.meta.*\n",
+      "stderr": "",
+      "processing_time": 0.311215877532959
+    },
+    "test_simple_mixed.hpp": {
+      "success": true,
+      "json_created": true,
+      "hpp_created": true,
+      "json_valid": true,
+      "json_size": 750,
+      "stdout": "\n Activating header_inspect environment...\n\u2705 Python dependencies OK\n\n External tools OK (doxygen, castxml)\nRunning header_inspector.py on test/test_simple_mixed.hpp...\n\ud83d\udd0d Pre-processing comments...\n\ud83d\udcd7 Running Doxygen...\n\u2699\ufe0f Running CastXML...\n\ud83d\udcca Parsing & merging...\n\ud83e\udde9 Generating artefacts...\n\u2705 Done \u2192 MetaDataGen/test_simple_mixed.meta.*\n",
+      "stderr": "",
+      "processing_time": 0.31390905380249023
+    }
+  }
+}

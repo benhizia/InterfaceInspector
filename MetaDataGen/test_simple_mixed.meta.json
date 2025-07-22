@@ -1,0 +1,70 @@
+{
+  "SimpleMixedTest": {
+    "size": 24,
+    "align": 8,
+    "members": [
+      {
+        "name": "value",
+        "offset": 0,
+        "type": "_140",
+        "size": 0,
+        "align": 0,
+        "doc": "Before line Inline."
+      },
+      {
+        "name": "price",
+        "offset": 8,
+        "type": "_141",
+        "size": 0,
+        "align": 0,
+        "doc": "Multi-line before Inline."
+      },
+      {
+        "name": "type",
+        "offset": 16,
+        "type": "_139",
+        "size": 0,
+        "align": 0,
+        "doc": "No before."
+      }
+    ]
+  },
+  "__NSConstantString_tag": {
+    "size": 32,
+    "align": 8,
+    "members": [
+      {
+        "name": "isa",
+        "offset": 0,
+        "type": "_145",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "flags",
+        "offset": 8,
+        "type": "_140",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "str",
+        "offset": 16,
+        "type": "_146",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "length",
+        "offset": 24,
+        "type": "_147",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  }
+}

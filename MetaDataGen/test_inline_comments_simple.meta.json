@@ -1,0 +1,62 @@
+{
+  "SimpleInlineTest": {
+    "size": 16,
+    "align": 8,
+    "members": [
+      {
+        "name": "value",
+        "offset": 0,
+        "type": "_139",
+        "size": 0,
+        "align": 0,
+        "doc": "This goes with value."
+      },
+      {
+        "name": "price",
+        "offset": 8,
+        "type": "_140",
+        "size": 0,
+        "align": 0,
+        "doc": "This goes with price."
+      }
+    ]
+  },
+  "__NSConstantString_tag": {
+    "size": 32,
+    "align": 8,
+    "members": [
+      {
+        "name": "isa",
+        "offset": 0,
+        "type": "_144",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "flags",
+        "offset": 8,
+        "type": "_139",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "str",
+        "offset": 16,
+        "type": "_145",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "length",
+        "offset": 24,
+        "type": "_146",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  }
+}

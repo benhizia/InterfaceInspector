@@ -1,0 +1,444 @@
+{
+  "__darwin_pthread_handler_rec": {
+    "size": 24,
+    "align": 8,
+    "members": [
+      {
+        "name": "__routine",
+        "offset": 0,
+        "type": "_391",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__arg",
+        "offset": 8,
+        "type": "_380",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__next",
+        "offset": 16,
+        "type": "_392",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "_opaque_pthread_attr_t": {
+    "size": 64,
+    "align": 8,
+    "members": [
+      {
+        "name": "__sig",
+        "offset": 0,
+        "type": "_231",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__opaque",
+        "offset": 8,
+        "type": "_396",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "_opaque_pthread_cond_t": {
+    "size": 48,
+    "align": 8,
+    "members": [
+      {
+        "name": "__sig",
+        "offset": 0,
+        "type": "_231",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__opaque",
+        "offset": 8,
+        "type": "_400",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "_opaque_pthread_condattr_t": {
+    "size": 16,
+    "align": 8,
+    "members": [
+      {
+        "name": "__sig",
+        "offset": 0,
+        "type": "_231",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__opaque",
+        "offset": 8,
+        "type": "_404",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "_opaque_pthread_mutex_t": {
+    "size": 64,
+    "align": 8,
+    "members": [
+      {
+        "name": "__sig",
+        "offset": 0,
+        "type": "_231",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__opaque",
+        "offset": 8,
+        "type": "_396",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "_opaque_pthread_mutexattr_t": {
+    "size": 16,
+    "align": 8,
+    "members": [
+      {
+        "name": "__sig",
+        "offset": 0,
+        "type": "_231",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__opaque",
+        "offset": 8,
+        "type": "_404",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "_opaque_pthread_once_t": {
+    "size": 16,
+    "align": 8,
+    "members": [
+      {
+        "name": "__sig",
+        "offset": 0,
+        "type": "_231",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__opaque",
+        "offset": 8,
+        "type": "_404",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "_opaque_pthread_rwlock_t": {
+    "size": 200,
+    "align": 8,
+    "members": [
+      {
+        "name": "__sig",
+        "offset": 0,
+        "type": "_231",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__opaque",
+        "offset": 8,
+        "type": "_417",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "_opaque_pthread_rwlockattr_t": {
+    "size": 24,
+    "align": 8,
+    "members": [
+      {
+        "name": "__sig",
+        "offset": 0,
+        "type": "_231",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__opaque",
+        "offset": 8,
+        "type": "_421",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "_opaque_pthread_t": {
+    "size": 8192,
+    "align": 8,
+    "members": [
+      {
+        "name": "__sig",
+        "offset": 0,
+        "type": "_231",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__cleanup_stack",
+        "offset": 8,
+        "type": "_392",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "__opaque",
+        "offset": 16,
+        "type": "_425",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "AlignedStruct": {
+    "size": 16,
+    "align": 16,
+    "members": [
+      {
+        "name": "large_value",
+        "offset": 0,
+        "type": "_67",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "precision_value",
+        "offset": 8,
+        "type": "_430",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "small_value",
+        "offset": 12,
+        "type": "_65",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "flag",
+        "offset": 14,
+        "type": "_386",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "PackedStruct": {
+    "size": 16,
+    "align": 1,
+    "members": [
+      {
+        "name": "type_id",
+        "offset": 0,
+        "type": "_68",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "data_value",
+        "offset": 1,
+        "type": "_70",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "checksum",
+        "offset": 5,
+        "type": "_69",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "flags",
+        "offset": 7,
+        "type": "_68",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "timestamp",
+        "offset": 8,
+        "type": "_71",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "MixedAlignment": {
+    "size": 64,
+    "align": 32,
+    "members": [
+      {
+        "name": "normal_int",
+        "offset": 0,
+        "type": "_225",
+        "size": 0,
+        "align": 0,
+        "doc": "Normal alignment."
+      },
+      {
+        "name": "aligned_double",
+        "offset": 32,
+        "type": "_437",
+        "size": 0,
+        "align": 0,
+        "doc": "Explicitly aligned member."
+      },
+      {
+        "name": "buffer",
+        "offset": 40,
+        "type": "_421",
+        "size": 0,
+        "align": 0,
+        "doc": "Array with specific alignment."
+      },
+      {
+        "name": "flag1",
+        "offset": 56,
+        "type": "_70",
+        "size": 0,
+        "align": 0,
+        "doc": "Bitfield members."
+      },
+      {
+        "name": "flag2",
+        "offset": 56,
+        "type": "_70",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "reserved",
+        "offset": 56,
+        "type": "_70",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "value",
+        "offset": 57,
+        "type": "_70",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "__NSConstantString_tag": {
+    "size": 32,
+    "align": 8,
+    "members": [
+      {
+        "name": "isa",
+        "offset": 0,
+        "type": "_455",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "flags",
+        "offset": 8,
+        "type": "_225",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "str",
+        "offset": 16,
+        "type": "_456",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "length",
+        "offset": 24,
+        "type": "_231",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "": {
+    "size": 8,
+    "align": 4,
+    "members": [
+      {
+        "name": "low",
+        "offset": 0,
+        "type": "_70",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "high",
+        "offset": 4,
+        "type": "_70",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "__NSConstantString_tag": {
+    "size": 32,
+    "align": 8,
+    "members": [
+      {
+        "name": "isa",
+        "offset": 0,
+        "type": "_179",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "flags",
+        "offset": 8,
+        "type": "_173",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "str",
+        "offset": 16,
+        "type": "_180",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "length",
+        "offset": 24,
+        "type": "_181",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "Shape": {
+    "size": 32,
+    "align": 8,
+    "members": [
+      {
+        "name": "x_",
+        "offset": 8,
+        "type": "_172",
+        "size": 0,
+        "align": 0,
+        "doc": "Position coordinates."
+      },
+      {
+        "name": "y_",
+        "offset": 16,
+        "type": "_172",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "color_",
+        "offset": 24,
+        "type": "_173",
+        "size": 0,
+        "align": 0,
+        "doc": "Shape color."
+      }
+    ]
+  },
+  "Rectangle": {
+    "size": 48,
+    "align": 8,
+    "members": [
+      {
+        "name": "width_",
+        "offset": 32,
+        "type": "_172",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "height_",
+        "offset": 40,
+        "type": "_172",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  }
+}

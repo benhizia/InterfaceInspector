@@ -1,0 +1,62 @@
+{
+  "__NSConstantString_tag": {
+    "size": 32,
+    "align": 8,
+    "members": [
+      {
+        "name": "isa",
+        "offset": 0,
+        "type": "_147",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "flags",
+        "offset": 8,
+        "type": "_142",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "str",
+        "offset": 16,
+        "type": "_148",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      },
+      {
+        "name": "length",
+        "offset": 24,
+        "type": "_149",
+        "size": 0,
+        "align": 0,
+        "doc": ""
+      }
+    ]
+  },
+  "Calculator": {
+    "size": 8,
+    "align": 4,
+    "members": [
+      {
+        "name": "state_",
+        "offset": 0,
+        "type": "_142",
+        "size": 0,
+        "align": 0,
+        "doc": "Internal state value."
+      },
+      {
+        "name": "debug_mode_",
+        "offset": 4,
+        "type": "_143",
+        "size": 0,
+        "align": 0,
+        "doc": "Configuration flag."
+      }
+    ]
+  }
+}
