@@ -4,37 +4,36 @@
     "align": 8,
     "members": [
       {
+        "align": 4,
         "name": "value",
         "offset": 0,
-        "type": "_141",
-        "size": 0,
-        "align": 0,
+        "size": 4,
         "doc": "Integer value."
       },
       {
+        "align": 8,
         "name": "price",
         "offset": 8,
-        "type": "_142",
-        "size": 0,
-        "align": 0,
+        "size": 8,
         "doc": "Floating point number price of the product."
       },
       {
+        "align": 1,
         "name": "is_active",
         "offset": 16,
-        "type": "_143",
-        "size": 0,
-        "align": 0,
+        "size": 1,
         "doc": "Boolean flag is_active parameter of activation."
       },
       {
+        "align": 1,
         "name": "category",
         "offset": 17,
-        "type": "_140",
-        "size": 0,
-        "align": 0,
+        "size": 1,
         "doc": "Character data."
       }
     ]
+  },
+  "system": {
+    "compiler": "Clang 16.0.0"
   }
 }

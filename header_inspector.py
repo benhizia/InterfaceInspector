@@ -1,18 +1,10 @@
-#!/usr/bin/env python3
-"""
-inspect_header.py
-One-shot pipeline:  header → Doxygen XML + CastXML → merged metadata
-Produces:
-  <basename>.meta.json          (human readable)
-  <basename>.meta.hpp           (C++ reflection helpers)
-"""
-
 import os
 import shutil
 import subprocess
 import tempfile
 import json
 import platform
+import sys
 from pathlib import Path
 from lxml import etree
 from jinja2 import Template
@@ -47,7 +39,7 @@ def run_doxygen(header: Path, out_dir: Path):
     return out_dir / "xml"
 
 # ------------------------------------------------------------------ #
-# 3. CastXML  (MSVC alignment hints)
+# 3. CastXML  (for names and structure)
 # ------------------------------------------------------------------ #
 def run_castxml(header: Path, out_xml: Path, include_paths: list[str]):
     # Platform-specific flags
@@ -83,55 +75,33 @@ def run_castxml(header: Path, out_xml: Path, include_paths: list[str]):
 # ------------------------------------------------------------------ #
 # 4. XML Parsers
 # ------------------------------------------------------------------ #
-def parse_castxml(xml_path: Path, header_file: Path):
-    """Parse CastXML output using reliable XML parsing."""
+def parse_castxml_for_names(xml_path: Path, header_file: Path):
+    """Parse CastXML to get struct and member names."""
     tree = etree.parse(str(xml_path))
     classes = {}
 
-    # Find the file ID for the header file
     header_file_id = None
     for file_node in tree.xpath(f"//File"):
         if header_file.name == Path(file_node.get("name")).name:
             header_file_id = file_node.get("id")
             break
 
-    # Create a map of all fields by ID
     fields_by_id = {}
     for field in tree.xpath("//Field"):
         fields_by_id[field.get("id")] = field
-    
-    # Look for both Struct and Class elements
-    for element_type in ["Struct", "Class"]:
-        xpath_query = f"//{element_type}[@name]"
-        if header_file_id:
-            xpath_query = f"//{element_type}[@name and @file='{header_file_id}']"
 
+    for element_type in ["Struct", "Class"]:
+        xpath_query = f"//{element_type}[@name and @file='{header_file_id}']"
         for rec in tree.xpath(xpath_query):
             name = rec.get("name")
             members = []
-            
-            # Get member IDs from members attribute
             members_attr = rec.get("members", "")
             member_ids = members_attr.split() if members_attr else []
-            
             for member_id in member_ids:
                 if member_id in fields_by_id:
                     f = fields_by_id[member_id]
-                    offset_bits = int(f.get("offset", "0"))
-                    members.append({
-                        "name": f.get("name"),
-                        "offset": offset_bits // 8,
-                        "type": f.get("type"),
-                        "size": int(f.get("size", "0")) // 8,
-                        "align": int(f.get("align", "0")) // 8
-                    })
-            
-            classes[name] = {
-                "size": int(rec.get("size", "0")) // 8,
-                "align": int(rec.get("align", "0")) // 8,
-                "members": members
-            }
-    
+                    members.append({"name": f.get("name")})
+            classes[name] = {"members": members}
     return classes
 
 def parse_doxygen_comments(xml_dir: Path):
@@ -140,102 +110,145 @@ def parse_doxygen_comments(xml_dir: Path):
     if not idx.exists():
         return comments
     
-    # Parse index to find all compounds (classes and structs)
     tree = etree.parse(str(idx))
-    
-    # Look for both classes and structs
     for kind in ['class', 'struct']:
         for c in tree.xpath(f"//compound[@kind='{kind}']"):
             ref = c.get("refid")
-            
-            # Try multiple XML file naming patterns
-            xml_candidates = [
-                xml_dir / f"{ref}.xml",
-                xml_dir / f"{kind}_{c.get('name', '').lower().replace(' ', '_')}.xml" if c.get('name') else None
-            ]
-            
-            cls_xml = None
-            for xml_file in xml_candidates:
-                if xml_file and xml_file.exists():
-                    cls_xml = xml_file
-                    break
-            
-            if not cls_xml:
+            cls_xml = xml_dir / f"{ref}.xml"
+            if not cls_xml.exists():
                 continue
             
-            # Parse the compound XML file
             cls_tree = etree.parse(str(cls_xml))
-            
-            # Find all member variables
             for m in cls_tree.xpath(".//memberdef[@kind='variable']"):
                 name = m.findtext("name")
                 if not name:
                     continue
                 
-                # Get description from multiple sources
                 doc_parts = []
-                
-                # Brief description
                 brief = m.findtext("briefdescription/para") or ""
                 if brief.strip():
                     doc_parts.append(brief.strip())
                 
-                # Detailed description
                 detailed = m.findtext("detaileddescription/para") or ""
                 if detailed.strip():
                     doc_parts.append(detailed.strip())
                 
-                # Get all text content from descriptions
-                for desc_type in ["briefdescription", "detaileddescription"]:
-                    desc_elem = m.find(desc_type)
-                    if desc_elem is not None:
-                        text_content = etree.tostring(desc_elem, encoding='unicode', method='text').strip()
-                        if text_content and text_content not in doc_parts:
-                            doc_parts.append(text_content)
-                
-                # Combine all documentation and deduplicate
-                seen = set()
-                unique_parts = []
-                for part in doc_parts:
-                    if part and part not in seen:
-                        seen.add(part)
-                        unique_parts.append(part)
-                
-                doc = " ".join(unique_parts).strip()
+                doc = " ".join(doc_parts).strip()
                 if doc:
                     comments[name] = doc
-    
     return comments
 
 # ------------------------------------------------------------------ #
-# 5. Merge + Generate artefacts
+# 5. C++ Introspection
 # ------------------------------------------------------------------ #
-CPP_TMPL = """
-#pragma once
+CPP_BUILDER_TMPL = """
+#include <iostream>
+#include <vector>
+#include <string>
 #include <cstddef>
-#include <type_traits>
-#include <tuple>
+#include <nlohmann/json.hpp>
+#include "{header_path}"
 
-struct MemberInfo {
-    const char* name;
-    size_t      offset;
-    size_t      size;
-    size_t      align;
-};
+using json = nlohmann::json;
 
-{% for cls, data in classes.items() %}
-constexpr std::array<MemberInfo, {{ data.members|length }}> {{ cls }}_meta = {
-    {% for m in data.members %}
-    { "{{ m.name }}", {{ m.offset }}, {{ m.size }}, {{ m.align }} }{% if not loop.last %},{% endif %}
-    {% endfor %}
-};
-{% endfor %}
+std::string get_compiler_info() {{
+#if defined(__clang__)
+    return "Clang " + std::to_string(__clang_major__) + "." + std::to_string(__clang_minor__) + "." + std::to_string(__clang_patchlevel__);
+#elif defined(__GNUC__)
+    return "GCC " + std::to_string(__GNUC__) + "." + std::to_string(__GNUC_MINOR__) + "." + std::to_string(__GNUC_PATCHLEVEL__);
+#elif defined(_MSC_VER)
+    return "MSVC " + std::to_string(_MSC_VER);
+#else
+    return "Unknown";
+#endif
+}}
+
+int main() {{
+    json output;
+    output["system"] = {{
+        {{ "compiler", get_compiler_info() }}
+    }};
+    {introspection_code}
+    std::cout << output.dump(2);
+    return 0;
+}}
 """
 
+INTROSPECTION_CODE_TMPL = """
+    output["{class_name}"] = {{
+        {{ "size", sizeof({class_name}) }},
+        {{ "align", alignof({class_name}) }},
+        {{ "members", json::array() }}
+    }};
+    {member_code}
+"""
+
+MEMBER_CODE_TMPL = """
+    output["{class_name}"]["members"].push_back({{
+        {{ "name", "{member_name}" }},
+        {{ "offset", offsetof({class_name}, {member_name}) }},
+        {{ "size", sizeof(decltype(std::declval<{class_name}>().{member_name})) }},
+        {{ "align", alignof(decltype(std::declval<{class_name}>().{member_name})) }}
+    }});
+"""
+
+def run_cpp_introspection(header: Path, classes: dict, tmp_dir: Path, include_paths: list[str]):
+    introspection_code = ""
+    for class_name, data in classes.items():
+        member_code = ""
+        for member in data["members"]:
+            member_code += MEMBER_CODE_TMPL.format(class_name=class_name, member_name=member["name"])
+        introspection_code += INTROSPECTION_CODE_TMPL.format(class_name=class_name, member_code=member_code)
+
+    builder_cpp = tmp_dir / "meta_builder.cpp"
+    builder_cpp.write_text(CPP_BUILDER_TMPL.format(
+        header_path=header.resolve(),
+        introspection_code=introspection_code
+    ))
+
+    builder_exe = tmp_dir / "meta_builder"
+    
+    sdk_root = None
+    final_include_paths = []
+    if platform.system() == "Darwin":
+        for path in include_paths:
+            if "SDKs/MacOSX.sdk/usr/include" in path:
+                if not sdk_root:
+                    sdk_root = path.removesuffix("/usr/include")
+            elif "llvm/include/c++/v1" in path:
+                # This can conflict with the system's C++ library, so we skip it
+                # when using -isysroot.
+                pass
+            else:
+                final_include_paths.append(path)
+    else:
+        final_include_paths = include_paths
+
+    compile_cmd = ["clang++", "-std=c++17"]
+    if sdk_root:
+        compile_cmd.extend(["-isysroot", sdk_root])
+
+    compile_cmd.extend([str(builder_cpp), "-o", str(builder_exe)])
+
+    for path in final_include_paths:
+        compile_cmd.append(f"-I{path}")
+    
+    compile_cmd.append(f"-I{Path(__file__).parent / 'vendor'}")
+
+    subprocess.run(compile_cmd, check=True)
+    
+    result = subprocess.run([str(builder_exe)], capture_output=True, text=True, check=True)
+    return json.loads(result.stdout)
+
+# ------------------------------------------------------------------ #
+# 6. Merge + Generate artefacts
+# ------------------------------------------------------------------ #
 def generate_files(header: Path, classes: dict, comments: dict, out_dir: Path):
     base = header.with_suffix("")
     out_dir.mkdir(parents=True, exist_ok=True)
+
     # 1. JSON
+    system_info = classes.pop("system", {})
     enriched = {
         cls: {
             **meta,
@@ -246,18 +259,36 @@ def generate_files(header: Path, classes: dict, comments: dict, out_dir: Path):
         }
         for cls, meta in classes.items()
     }
+    enriched["system"] = {
+        "architecture": platform.machine(),
+        "endianness": sys.byteorder,
+        "compiler": system_info.get("compiler", "Unknown")
+    }
+
     (out_dir / base.with_suffix(".meta.json").name).write_text(
         json.dumps(enriched, indent=2), encoding="utf-8"
     )
 
     # 2. C++ helpers
-    cpp = Template(CPP_TMPL, trim_blocks=True, lstrip_blocks=True)
-    (out_dir / base.with_suffix(".meta.hpp").name).write_text(
-        cpp.render(classes=enriched), encoding="utf-8"
-    )
+    cpp_content = "#pragma once\n#include <cstddef>\n#include <type_traits>\n#include <tuple>\n\n"
+    cpp_content += "struct MemberInfo {\n    const char* name;\n    size_t      offset;\n    size_t      size;\n    size_t      align;\n};\n\n"
+
+    for cls, data in enriched.items():
+        if cls == "system":
+            continue
+        cpp_content += f"constexpr std::array<MemberInfo, {len(data['members'])}> {cls}_meta = {{\n"
+        for i, m in enumerate(data["members"]):
+            cpp_content += f'    {{ "{m["name"]}", {m["offset"]}, {m["size"]}, {m["align"]} }}'
+            if i < len(data["members"]) - 1:
+                cpp_content += ","
+            cpp_content += "\n"
+        cpp_content += "}}};\n\n"
+
+    (out_dir / base.with_suffix(".meta.hpp").name).write_text(cpp_content, encoding="utf-8")
+
 
 # ------------------------------------------------------------------ #
-# 6. Main driver
+# 7. Main driver
 # ------------------------------------------------------------------ #
 def main(header: str, include_paths: list[str]):
     header = Path(header).expanduser().resolve()
@@ -274,16 +305,30 @@ def main(header: str, include_paths: list[str]):
         castxml_xml = tmp / "cast.xml"
         run_castxml(tmp_header, castxml_xml, include_paths)
 
-        print("📊 Parsing & merging...")
-        classes = parse_castxml(castxml_xml, tmp_header)
+        print("📊 Parsing for names...")
+        classes_with_names = parse_castxml_for_names(castxml_xml, tmp_header)
         comments = parse_doxygen_comments(doxy_xml)
 
+        print("🤖 Generating and running C++ introspection tool...")
+        layout_data = run_cpp_introspection(header, classes_with_names, tmp, include_paths)
+
+        # Merge layout data with names and comments
+        final_classes = {}
+        system_info = layout_data.pop("system", {})
+        for class_name, data in layout_data.items():
+            final_classes[class_name] = {
+                "size": data["size"],
+                "align": data["align"],
+                "members": data["members"]
+            }
+
+        final_classes["system"] = system_info
+
         print("🧩 Generating artefacts...")
-        generate_files(header, classes, comments, out_dir)
+        generate_files(header, final_classes, comments, out_dir)
         print(f"✅ Done → {out_dir}/{header.with_suffix('').name}.meta.*")
 
 if __name__ == "__main__":
-    import sys
     if len(sys.argv) < 2:
         print("Usage: inspect_header.py <header.hpp> [-I<path>...]")
         sys.exit(1)

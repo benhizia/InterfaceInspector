@@ -1,0 +1,57 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# C++
+build/
+ipc_test/build/
+*.o
+*.so
+*.a
+*.out
+*.exe
+*.ilk
+*.pdb
+*.gch
+*.pch
+*.log
+*.tlog
+*.idb
+*.obj
+*.obj.d
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+pip-wheel-metadata/
+.Python
+/lib/
+/include/
+/bin/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+/htmlcov/
+.hypothesis/
+
+# Test results
+test_results.json
+
+# Vendor
+vendor/
+ipc_test/vendor/

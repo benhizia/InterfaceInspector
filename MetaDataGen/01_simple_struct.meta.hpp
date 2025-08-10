@@ -1,4 +1,3 @@
-
 #pragma once
 #include <cstddef>
 #include <type_traits>
@@ -12,4 +11,9 @@ struct MemberInfo {
 };
 
 constexpr std::array<MemberInfo, 4> SimpleStruct_meta = {
-    { "value", 0, 0, 0 },    { "price", 8, 0, 0 },    { "is_active", 16, 0, 0 },    { "category", 17, 0, 0 }};
+    { "value", 0, 4, 4 },
+    { "price", 8, 8, 8 },
+    { "is_active", 16, 1, 1 },
+    { "category", 17, 1, 1 }
+}}};
+
