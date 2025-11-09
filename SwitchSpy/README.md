@@ -30,6 +30,8 @@ A sophisticated network relay and visualization tool that acts as a man-in-the-m
 ## Quick Start
 
 ### Prerequisites
+
+**Linux/macOS:**
 ```bash
 # Install dependencies
 brew install cmake glfw3  # macOS
@@ -40,7 +42,16 @@ sudo apt-get install cmake libglfw3-dev libgl1-mesa-dev  # Linux
 git submodule update --init --recursive
 ```
 
+**Windows:**
+- Visual Studio 2022 (with C++ Desktop Development)
+- CMake 3.21+
+- Git (for submodules)
+
+See [Windows Build Guide](docs/BUILDING_WINDOWS.md) for detailed instructions.
+
 ### Building
+
+**Linux/macOS:**
 ```bash
 cd SwitchSpy
 mkdir build && cd build
@@ -48,13 +59,36 @@ cmake ..
 cmake --build .
 ```
 
+**Windows:**
+```cmd
+cd SwitchSpy
+quick-build.cmd
+```
+
+Or for more control:
+```cmd
+build.cmd x64 release configure
+build.cmd x64 release build
+```
+
+See [Windows Build Guide](docs/BUILDING_WINDOWS.md) for all options.
+
 ### Running
+
+**Linux/macOS:**
 ```bash
 # Use example configuration
 ./switchspy ../config/example.ini
 
 # Or specify a custom config
 ./switchspy /path/to/your/config.ini
+```
+
+**Windows:**
+```cmd
+build.cmd x64 release run
+REM Or run directly:
+build\windows-x64-release\Release\switchspy.exe config\example.ini
 ```
 
 ## Configuration
