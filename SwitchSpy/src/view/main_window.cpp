@@ -1,6 +1,10 @@
 #include "switchspy/view/main_window.hpp"
 #include "switchspy/view/connection_tab.hpp"
+#include "switchspy/view/log_panel.hpp"
+#include "switchspy/view/performance_panel.hpp"
 #include "switchspy/controller/connection_manager.hpp"
+#include "switchspy/common/logger.hpp"
+#include "switchspy/common/benchmark.hpp"
 #include "imgui.h"
 #include "imgui_impl_glfw.h"
 #include "imgui_impl_opengl3.h"
@@ -59,11 +63,16 @@ void MainWindow::run() {
 }
 
 void MainWindow::render() {
+    BENCHMARK_SCOPE_CAT(benchmark::categories::GUI_RENDER);
+
     renderMenuBar();
-    
-    ImGui::Begin("SwitchSpy", nullptr, ImGuiWindowFlags_NoCollapse);
-    
-    if (ImGui::BeginTabBar("Connections")) {
+
+    // Main window with connection tabs
+    ImGui::SetNextWindowPos(ImVec2(0, 20), ImGuiCond_FirstUseEver);
+    ImGui::SetNextWindowSize(ImVec2(1280, 400), ImGuiCond_FirstUseEver);
+    ImGui::Begin("Connections", nullptr, ImGuiWindowFlags_NoCollapse);
+
+    if (ImGui::BeginTabBar("ConnectionTabs")) {
         auto& connections = controller::ConnectionManager::instance().getAllConnections();
         for (const auto& [name, conn] : connections) {
             if (ImGui::BeginTabItem(name.c_str())) {
@@ -74,8 +83,32 @@ void MainWindow::render() {
         }
         ImGui::EndTabBar();
     }
-    
+
     ImGui::End();
+
+    // Bottom panel with logs and performance tabs
+    ImGui::SetNextWindowPos(ImVec2(0, 430), ImGuiCond_FirstUseEver);
+    ImGui::SetNextWindowSize(ImVec2(1280, 290), ImGuiCond_FirstUseEver);
+    ImGui::Begin("Monitoring", nullptr, ImGuiWindowFlags_NoCollapse);
+
+    if (ImGui::BeginTabBar("MonitoringTabs")) {
+        if (ImGui::BeginTabItem("Logs")) {
+            static LogPanel log_panel;
+            log_panel.render();
+            ImGui::EndTabItem();
+        }
+
+        if (ImGui::BeginTabItem("Performance")) {
+            static PerformancePanel perf_panel;
+            perf_panel.render();
+            ImGui::EndTabItem();
+        }
+
+        ImGui::EndTabBar();
+    }
+
+    ImGui::End();
+
     renderStatusBar();
 }
 

@@ -89,6 +89,10 @@ target_include_directories(inih PUBLIC ${VENDOR_DIR}/inih ${VENDOR_DIR}/inih/cpp
 
 # SwitchSpy Core Library
 set(SWITCHSPY_SOURCES
+    # Common
+    src/common/logger.cpp
+    src/common/benchmark.cpp
+
     # Core
     src/core/network_connection.cpp
     src/core/tcp_connection.cpp
@@ -117,6 +121,7 @@ set(SWITCHSPY_SOURCES
     src/controller/relay_controller.cpp
     src/controller/recording_controller.cpp
     src/controller/replay_controller.cpp
+    src/controller/flow_control.cpp
 
     # View
     src/view/main_window.cpp
@@ -125,9 +130,17 @@ set(SWITCHSPY_SOURCES
     src/view/struct_renderer.cpp
     src/view/stats_panel.cpp
     src/view/metadata_parser.cpp
+    src/view/log_panel.cpp
+    src/view/performance_panel.cpp
 )
 
 set(SWITCHSPY_HEADERS
+    # Common
+    include/switchspy/common/types.hpp
+    include/switchspy/common/platform.hpp
+    include/switchspy/common/logger.hpp
+    include/switchspy/common/benchmark.hpp
+
     # Core
     include/switchspy/core/network_connection.hpp
     include/switchspy/core/tcp_connection.hpp
@@ -156,6 +169,7 @@ set(SWITCHSPY_HEADERS
     include/switchspy/controller/relay_controller.hpp
     include/switchspy/controller/recording_controller.hpp
     include/switchspy/controller/replay_controller.hpp
+    include/switchspy/controller/flow_control.hpp
 
     # View
     include/switchspy/view/main_window.hpp
@@ -164,10 +178,8 @@ set(SWITCHSPY_HEADERS
     include/switchspy/view/struct_renderer.hpp
     include/switchspy/view/stats_panel.hpp
     include/switchspy/view/metadata_parser.hpp
-
-    # Common
-    include/switchspy/common/types.hpp
-    include/switchspy/common/platform.hpp
+    include/switchspy/view/log_panel.hpp
+    include/switchspy/view/performance_panel.hpp
 )
 
 add_library(switchspy_lib STATIC ${SWITCHSPY_SOURCES} ${SWITCHSPY_HEADERS})
